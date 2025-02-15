@@ -15,17 +15,14 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %} -->
 
-<!-- <span class='anchor' id='about-me'></span> -->
-
+<span class='anchor' id='about-me'></span>
 I am a doctoral candidate in the Department of Computer Science at KU Leuven’s Bruges Campus in Belgium, under the primary supervision of [Prof. Hans Hallez](https://www.kuleuven.be/wieiswie/en/person/00080562) and co-supervision from [Prof. David Moens](https://www.kuleuven.be/wieiswie/en/person/00012025) and [Dr. Keivan Shariatmadar](https://www.kuleuven.be/wieiswie/en/person/00115080). I also collaborate closely with [Prof. Fabio Cuzzolin](https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin). My current research centers on uncertainty representation and quantification in deep learning, aiming to enhance the robustness and reliability of machine learning models.
 
 If you have any questions about my research or would like to collaborate with me, please feel free to reach me.
 
 # 🔥 News
-- **2025.02.12**: 🎉🎉 Our Credal Wrapper paper was awarded Spotlight (3.3% acceptance rate) by ICLR 2025.
+- **2025.02.12**: 🎉🎉 Our Credal Wrapper paper was awarded Spotlight by ICLR 2025 (3.3% acceptance rate).
 - **2025.01.22**: 🎉🎉 Two papers were accpeted by ICLR 2025.
-
-
 
 
 # 📝 Selected Publications
@@ -61,11 +58,11 @@ If you have any questions about my research or would like to collaborate with me
   </small>
 
 
-
 # 🎓 Educations
 - **2021.11 - Present**: Ph.D in Computer Science, KU Leuven, Bruges, Belgium
 - **2018.04 - 2020.10**: M.Sc in Automation Engineering, RWTH Aachen University, Aachen, Germany
 - **2013.09 - 2017.06**: B.Eng in Mechatronics Engineering, Zhejiang University, Hangzhou, China
+
 
 # 📚 Academic and Educational Services
 - **Workshop**: Co-organizer of [E-pi UAI 2023](https://sites.google.com/view/epi-workshop-uai-2023/home?authuser=0)
