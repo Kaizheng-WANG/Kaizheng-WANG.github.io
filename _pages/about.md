@@ -27,6 +27,13 @@ My current research centers on uncertainty representation and quantification in 
 - *2024.09.25*: &nbsp;🎉🎉 One paper is accpeted by NeurIPS 2024.
 
 # 📝 Selected Publications
+<div class="publication-small">
+- **[J1]**: [**Robust state and protection-level estimation within tightly coupled GNSS/INS navigation system**](https://doi.org/10.1007/s10291-023-01447-z)<br>
+  <span class="authors">
+  Shuchen Liu, **Kaizheng Wang***, Dirk Abel.<br>
+  <em>GPS Solutions</em> (JCR Q1), 27(2): 89, 2023
+  </span>
+</div>
 <!-- - [**Robust state and protection-level estimation within tightly coupled GNSS/INS navigation system**] -->
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
@@ -50,7 +57,7 @@ My current research centers on uncertainty representation and quantification in 
 - *2013.09 - 2017.06*: &nbsp; B.Eng in Mechatronics Engineering, Zhejiang University, Hangzhou, China
 
 # 📚 Academic and Educational Services
-- *Workshop Co-organizer*: &nbsp; [E-pi UAI 2023 Workshop](https://sites.google.com/view/epi-workshop-uai-2023/home?authuser=0)
+- *Workshop*: &nbsp; Co-organizer of [E-pi UAI 2023 Workshop](https://sites.google.com/view/epi-workshop-uai-2023/home?authuser=0)
 - *Reviewer*: &nbsp; NeurIPS; ICLR; ICML; AISTATS; TMLR
 - *Teaching*: &nbsp; Lab session of AI in Embedded Systems \[B-KUL-B3076T\]
 - *Master Thesis Supervision*: &nbsp; T. Demeulenaere and S. Francq, L. De Jonckheere (2022-2023); A. Beigrezaei (2023-2024)
