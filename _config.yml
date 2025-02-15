@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Kaizheng Wang"
-description              : "PhD candidate in Machine Learning"
+description              : "PhD candidate at KU Leuven. Focusing on uncertainty quantification in deep learning."
 repository               : # "RayeRen/acad-homepage.github.io"
 # google_scholar_stats_use_cdn : true
 
@@ -24,7 +24,7 @@ author:
   name             : "Kaizheng Wang"
   avatar           : "images/kaizheng.png"
   # bio              : "KU Leuven"
-  location         : "Bruges, Belgium"
+  location         : "Belgium"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=FbWkCh0AAAAJ"
