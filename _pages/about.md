@@ -27,6 +27,26 @@ My current research centers on uncertainty representation and quantification in 
 - *2024.09.25*: &nbsp;🎉🎉 One paper is accpeted by NeurIPS 2024.
 
 # 📝 Selected Publications
+<div class="paper-box">
+  <!-- 左侧图片区（需保持结构完整性） -->
+  <div class="paper-box-image">
+    <div>
+      <div class="badge" data-conference="CVPR">CVPR 2016</div>
+      <!-- 可保留空图片占位 -->
+      <div style="width:250px; background:#f5f5f5;"></div>
+    </div>
+  </div>
+
+  <!-- 右侧文字区（启用Markdown解析） -->
+  <div class="paper-box-text" markdown="1">
+    [**CreINNs: Credal-Set Interval Neural Networks for Uncertainty Estimation in Classification Tasks**](https://www.sciencedirect.com/science/article/pii/S0893608025000772)<br>
+    <small>
+    **Kaizheng Wang**, Keivan Shariatmadar, Shireen Kudukkil Manchingal, Fabio Cuzzolin, David Moens, Hans Hallez.<br>
+    *Neural Networks*, Volume 185, 107198. 2025
+    </small>
+  </div>
+</div>
+
 - **\[NeuNet\]**: [**CreINNs: Credal-Set Interval Neural Networks for Uncertainty Estimation in Classification Tasks**](https://www.sciencedirect.com/science/article/pii/S0893608025000772)<br>
   <small>
   **Kaizheng Wang**, Keivan Shariatmadar, Shireen Kudukkil Manchingal, Fabio Cuzzolin, David Moens, Hans Hallez.<br>
