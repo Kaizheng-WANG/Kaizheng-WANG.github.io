@@ -7,21 +7,21 @@
 
 # Site Settings
 title                    : "Kaizheng Wang"
-description              : "PhD candidate at KU Leuven"
+# description              : "PhD candidate at KU Leuven"
 repository               : # "RayeRen/acad-homepage.github.io"
 # google_scholar_stats_use_cdn : true
 
 # google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+# google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+# google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
+# bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
+# baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
 # Site Author
 author:
-  name             : "Kaizheng Wang<br>王凯征"
+  name             : "Kaizheng Wang"
   avatar           : "images/kaizheng.png"
   # bio              : "KU Leuven"
   location         : "Bruges, Belgium"
