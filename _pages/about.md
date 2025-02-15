@@ -50,13 +50,14 @@ My current research centers on uncertainty representation and quantification in 
 - *2013.09 - 2017.06* B.Eng in Mechatronics Engineering, Zhejiang University, Hangzhou, China
 
 # 📚 Academic and Educational Services
-- *Workshop Co-organizer* [E-pi UAI (Uncertainty in Artificial Intelligence) 2023 Workshop](https://sites.google.com/view/epi-workshop-uai-2023/home?authuser=0)
-- *Conference Reviewer* NeurIPS; ICLR; ICML; AISTATS 
-- *Journal Reviewer* TMLR 
+- *Workshop Co-organizer* [E-pi UAI 2023 Workshop](https://sites.google.com/view/epi-workshop-uai-2023/home?authuser=0)
+- *Reviewer* NeurIPS; ICLR; ICML; AISTATS; TMLR
+- *Teaching at KU Leuven* Lab session of AI in Embedded Systems \[B-KUL-B3076T\], KU Leuven
+- *Master Thesis Supervision at KU Leuven* T. Demeulenaere and S. Francq, L. De Jonckheere (2022-2023); A. Beigrezaei (2023-2024)
 
-# 📖 Teaching and Supervision
+<!-- # 📖 Teaching and Supervision
 - *Teaching* Lab session of AI in Embedded Systems \[B-KUL-B3076T\], KU Leuven 
-- *(Advanced) Master Thesis Supervision* T. Demeulenaere and S. Francq (2022-2023); L. De Jonckheere (2022-2023); Ahmad Beigrezaei (2023-2024)
+- *(Advanced) Master Thesis Supervision* T. Demeulenaere and S. Francq (2022-2023); L. De Jonckheere (2022-2023); Ahmad Beigrezaei (2023-2024) -->
 
 <!-- # 💻 Internships
 - *2019.06 - 2019.10* Research assistant, Institute of Auto -->
