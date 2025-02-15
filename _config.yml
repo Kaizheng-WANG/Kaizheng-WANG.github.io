@@ -22,8 +22,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : | 
-                    "Kaizheng Wang"
-                    "王凯征"
+                    Kaizheng Wang
+                    王凯征
   avatar           : "images/kaizheng.png"
   bio              : "KU Leuven"
   location         : "Bruges, Belgium"
@@ -45,7 +45,7 @@ author:
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  # linkedin         : "https://www.linkedin.com/in/kaizheng-wang-a538661a9/"
+  linkedin         : "https://be.linkedin.com/in/kaizheng-wang-a538661a9/en"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
