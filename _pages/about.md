@@ -15,7 +15,7 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %} -->
 
-<span class='anchor' id='about-me'></span>
+<!-- <span class='anchor' id='about-me'></span> -->
 
 I am a doctoral candidate in the Department of Computer Science at KU Leuven’s Bruges Campus in Belgium, under the primary supervision of [Prof. Hans Hallez](https://www.kuleuven.be/wieiswie/en/person/00080562) and co-supervision from [Prof. David Moens](https://www.kuleuven.be/wieiswie/en/person/00012025) and [Dr. Keivan Shariatmadar](https://www.linkedin.com/in/keivan-shariatmadar/?originalSubdomain=be). I also collaborate closely with [Prof. Fabio Cuzzolin](https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin).
 
@@ -45,24 +45,14 @@ My current research centers on uncertainty representation and quantification in 
 
 
 # 🎓 Educations
-- *2021.11 - Present* Ph.D in Computer Science, KU Leuven, Bruges, Belgium
-- *2018.04 - 2020.10* M.Sc in Automation Engineering, RWTH Aachen University, Aachen, Germany
-- *2013.09 - 2017.06* B.Eng in Mechatronics Engineering, Zhejiang University, Hangzhou, China
+- *2021.11 - Present*: &nbsp; Ph.D in Computer Science, KU Leuven, Bruges, Belgium
+- *2018.04 - 2020.10*: &nbsp; M.Sc in Automation Engineering, RWTH Aachen University, Aachen, Germany
+- *2013.09 - 2017.06*: &nbsp; B.Eng in Mechatronics Engineering, Zhejiang University, Hangzhou, China
 
 # 📚 Academic and Educational Services
-- *Workshop Co-organizer* [E-pi UAI 2023 Workshop](https://sites.google.com/view/epi-workshop-uai-2023/home?authuser=0)
-- *Reviewer* NeurIPS; ICLR; ICML; AISTATS; TMLR
-- *Teaching at KU Leuven* Lab session of AI in Embedded Systems \[B-KUL-B3076T\], KU Leuven
-- *Master Thesis Supervision at KU Leuven* T. Demeulenaere and S. Francq, L. De Jonckheere (2022-2023); A. Beigrezaei (2023-2024)
+- *Workshop Co-organizer*: &nbsp; [E-pi UAI 2023 Workshop](https://sites.google.com/view/epi-workshop-uai-2023/home?authuser=0)
+- *Reviewer*: &nbsp; NeurIPS; ICLR; ICML; AISTATS; TMLR
+- *Teaching*: &nbsp; Lab session of AI in Embedded Systems \[B-KUL-B3076T\]
+- *Master Thesis Supervision*: &nbsp; T. Demeulenaere and S. Francq, L. De Jonckheere (2022-2023); A. Beigrezaei (2023-2024)
 
-<!-- # 📖 Teaching and Supervision
-- *Teaching* Lab session of AI in Embedded Systems \[B-KUL-B3076T\], KU Leuven 
-- *(Advanced) Master Thesis Supervision* T. Demeulenaere and S. Francq (2022-2023); L. De Jonckheere (2022-2023); Ahmad Beigrezaei (2023-2024) -->
-
-<!-- # 💻 Internships
-- *2019.06 - 2019.10* Research assistant, Institute of Auto -->
-
-<!-- # 🎖 Selected Honors and Awards
-- *2021.10* Outstanding Graduates of Zhejiang University. 
-- *2017.09*  -->
  
