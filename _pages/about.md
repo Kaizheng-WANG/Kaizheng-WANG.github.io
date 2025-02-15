@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Kaizheng WANG (王凯征)'s Homepage"
 excerpt: ""
 author_profile: true
 redirect_from: 
@@ -8,27 +8,28 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
+<!-- {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
 {% else %}
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %} -->
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a doctoral candidate in the Department of Computer Science at KU Leuven’s Bruges Campus in Belgium, under the primary supervision of [Prof. Hans Hallez](https://www.kuleuven.be/wieiswie/en/person/00080562) and co-supervision from [Prof. David Moens](https://www.kuleuven.be/wieiswie/en/person/00012025) and [Dr. Keivan Shariatmadar](https://www.linkedin.com/in/keivan-shariatmadar/?originalSubdomain=be). I also collaborate closely with [Prof. Fabio Cuzzolin](https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin).
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My current research centers on uncertainty representation and quantification in deep supervised learning.  
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.01.22*: &nbsp;🎉🎉 Two papers are accpeted by ICLR 2025.
+- *2024.09.25*: &nbsp;🎉🎉 One paper is accpeted by NeurIPS 2024.
 
-# 📝 Publications 
+# 📝 Selected Publications
+<!-- - [**Robust state and protection-level estimation within tightly coupled GNSS/INS navigation system**] -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
@@ -40,19 +41,27 @@ My research interest includes neural machine translation and computer vision. I 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 🎓 Educations
+- *2021.11 - Present* Ph.D in Computer Science, KU Leuven, Bruges, Belgium
+- *2018.04 - 2020.10* M.Sc in Automation Engineering, RWTH Aachen University, Aachen, Germany
+- *2013.09 - 2017.06* B.Eng in Mechatronics Engineering, Zhejiang University, Hangzhou, China
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+# 📚 Academic Services
+- *Workshop Co-organizer* [E-pi UAI (Uncertainty in Artificial Intelligence) 2023 Workshop](https://sites.google.com/view/epi-workshop-uai-2023/home?authuser=0)
+- *Conference Reviewer* NeurIPS; ICLR; ICML; AISTATS 
+- *Journal Reviewer* TMLR 
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 📖 Teaching and Supervision
+- *Teaching* Lab session of AI in Embedded Systems \[B-KUL-B3076T\], KU Leuven 
+- *(Advanced) Master Thesis Supervision* T. Demeulenaere and S. Francq (2022-2023); L. De Jonckheere (2022-2023); Ahmad Beigrezaei (2023-2024)
+
+<!-- # 💻 Internships
+- *2019.06 - 2019.10* Research assistant, Institute of Auto -->
+
+<!-- # 🎖 Selected Honors and Awards
+- *2021.10* Outstanding Graduates of Zhejiang University. 
+- *2017.09*  -->
+ 
