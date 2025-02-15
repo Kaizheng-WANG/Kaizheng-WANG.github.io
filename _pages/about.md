@@ -69,7 +69,7 @@ If you have any questions about my research or would like to collaborate with me
 # Academic and Educational Services
 - **Workshop**: Co-organizer of [E-pi UAI 2023](https://sites.google.com/view/epi-workshop-uai-2023/home?authuser=0)
 - **Reviewer**: NeurIPS; ICLR; ICML; AISTATS; TMLR
-- **Teaching**: Lab session of AI in Embedded Systems \[B-KUL-B3076T\]
-- **Master Thesis Supervision**: T. Demeulenaere and S. Francq, L. De Jonckheere (2022-2023); A. Beigrezaei (2023-2024)
+- **Teaching**: Lab session of *AI in Embedded Systems* \[B-KUL-B3076T\]
+- **Master Thesis Supervision**: T. Demeulenaere and S. Francq (2022-2023); L. De Jonckheere (2022-2023); A. Beigrezaei (2023-2024)
 
  
