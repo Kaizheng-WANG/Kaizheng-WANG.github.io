@@ -27,10 +27,20 @@ My current research centers on uncertainty representation and quantification in 
 - *2024.09.25*: &nbsp;🎉🎉 One paper is accpeted by NeurIPS 2024.
 
 # 📝 Selected Publications
-- **\[GPS Solut\]**: [**Robust state and protection-level estimation within tightly coupled GNSS/INS navigation system**](https://doi.org/10.1007/s10291-023-01447-z)<br>
+- **\[NeuNet\]**: [**CreINNs: Credal-Set Interval Neural Networks for Uncertainty Estimation in Classification Tasks**](https://www.sciencedirect.com/science/article/pii/S0893608025000772)<br>
   <small>
-   Shuchen Liu, **Kaizheng Wang***\, Dirk Abel.<br>
-  GPS Solutions,27, 111 (2023)<br>
+  **Kaizheng Wang**, Keivan Shariatmadar, Shireen Kudukkil Manchingal, Fabio Cuzzolin, David Moens, Hans Hallez.<br>
+  Neural Networkls, Volume 185, 107198. 2025<br>
+  </small>
+- **\[NeurIPS 2024\]**: [**Credal Deep Ensembles for Uncertainty Quantification**](https://proceedings.neurips.cc/paper_files/paper/2024/hash/911fc798523e7d4c2e9587129fcf88fc-Abstract-Conference.html)<br>
+  <small>
+  **Kaizheng Wang**, Fabio Cuzzolin, Shireen Kudukkil Manchingal, Keivan Shariatmadar, David Moens, Hans Hallez.<br>
+  The Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS). 2024<br>
+  </small>
+- **\[GPS Solut\]**: [**Robust State and Protection-Level Estimation within Tightly Coupled GNSS/INS Navigation System**](https://doi.org/10.1007/s10291-023-01447-z)<br>
+  <small>
+  Shuchen Liu, **Kaizheng Wang**, Dirk Abel.<br>
+  GPS Solutions, Volume 27, 111. 2023<br>
   </small>
 
 
