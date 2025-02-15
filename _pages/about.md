@@ -18,7 +18,9 @@ redirect_from:
 <!-- <span class='anchor' id='about-me'></span>-->
 
 # About Me
-I am a PhD candidate in the Department of Computer Science at KU Leuven’s Bruges Campus in Belgium, under the primary supervision of [Prof. Hans Hallez](https://www.kuleuven.be/wieiswie/en/person/00080562) and co-supervision from [Prof. David Moens](https://www.kuleuven.be/wieiswie/en/person/00012025) and [Dr. Keivan Shariatmadar](https://www.kuleuven.be/wieiswie/en/person/00115080). I also collaborate closely with [Prof. Fabio Cuzzolin](https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin). My current research centers on uncertainty representation and quantification in deep learning, aiming to enhance the robustness and reliability of machine learning models.
+I am Kaizheng Wang (王凯征), a PhD candidate in the Department of Computer Science at KU Leuven’s Bruges Campus in Belgium, under the primary supervision of [Prof. Hans Hallez](https://www.kuleuven.be/wieiswie/en/person/00080562) and co-supervision from [Prof. David Moens](https://www.kuleuven.be/wieiswie/en/person/00012025) and [Dr. Keivan Shariatmadar](https://www.kuleuven.be/wieiswie/en/person/00115080). I also collaborate closely with [Prof. Fabio Cuzzolin](https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin). 
+
+My current research centers on uncertainty representation and quantification in deep learning, aiming to enhance the robustness and reliability of machine learning models.
 
 If you have any questions about my research or would like to collaborate with me, please feel free to reach me.
 
