@@ -27,28 +27,12 @@ My current research centers on uncertainty representation and quantification in 
 - *2024.09.25*: &nbsp;🎉🎉 One paper is accpeted by NeurIPS 2024.
 
 # 📝 Selected Publications
-<div class="publication-small">
-- **[J1]**: [**Robust state and protection-level estimation within tightly coupled GNSS/INS navigation system**](https://doi.org/10.1007/s10291-023-01447-z)<br>
-  <span class="authors">
-  Shuchen Liu, **Kaizheng Wang***, Dirk Abel.<br>
-  <em>GPS Solutions</em> (JCR Q1), 27(2): 89, 2023
-  </span>
-</div>
-<!-- - [**Robust state and protection-level estimation within tightly coupled GNSS/INS navigation system**] -->
+- **\[GPS Solut\]**: [**Robust state and protection-level estimation within tightly coupled GNSS/INS navigation system**](https://doi.org/10.1007/s10291-023-01447-z)<br>
+  <small>
+   Shuchen Liu, **Kaizheng Wang***\, Dirk Abel.<br>
+  GPS Solutions,27, 111 (2023)<br>
+  </small>
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 
 # 🎓 Educations
