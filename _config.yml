@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : Kaizheng Wang 王凯征
+  name             : "Kaizheng Wang<br>王凯征"
   avatar           : "images/kaizheng.png"
   # bio              : "KU Leuven"
   location         : "Bruges, Belgium"
