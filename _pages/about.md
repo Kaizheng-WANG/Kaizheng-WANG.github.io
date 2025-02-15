@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Kaizheng WANG (王凯征)'s Homepage"
+title: "Kaizheng WANG"
 excerpt: ""
 author_profile: true
 redirect_from: 
@@ -49,7 +49,7 @@ My current research centers on uncertainty representation and quantification in 
 - *2018.04 - 2020.10* M.Sc in Automation Engineering, RWTH Aachen University, Aachen, Germany
 - *2013.09 - 2017.06* B.Eng in Mechatronics Engineering, Zhejiang University, Hangzhou, China
 
-# 📚 Academic Services
+# 📚 Academic and Educational Services
 - *Workshop Co-organizer* [E-pi UAI (Uncertainty in Artificial Intelligence) 2023 Workshop](https://sites.google.com/view/epi-workshop-uai-2023/home?authuser=0)
 - *Conference Reviewer* NeurIPS; ICLR; ICML; AISTATS 
 - *Journal Reviewer* TMLR 
