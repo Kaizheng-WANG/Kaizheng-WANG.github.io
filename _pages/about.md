@@ -44,7 +44,7 @@ If you have any questions about my research or would like to collaborate with me
   _**Kaizheng Wang**_, Fabio Cuzzolin, Shireen Kudukkil Manchingal, Keivan Shariatmadar, David Moens, Hans Hallez.<br>
   The 38th Annual Conference on Neural Information Processing Systems (**NeurIPS**). 2024<br>
   </small>
-  
+
 - [**Random-Set Neural Networks**](https://openreview.net/forum?id=pdjkikvCch)<br>
   <small>
   Shireen Kudukkil Manchingal, Muhammad Mubashar, _**Kaizheng Wang**_, Keivan Shariatmadar, Fabio Cuzzolin.<br>
@@ -73,7 +73,6 @@ If you have any questions about my research or would like to collaborate with me
 - **Workshop Organization**: Co-organizer of [E-pi UAI 2023](https://sites.google.com/view/epi-workshop-uai-2023/home?authuser=0)
 - **Conference Reviewer**: NeurIPS; ICLR; ICML; AISTATS
 - **Journal Reviewer**: TMLR; IEEE SPL; IEEE OJCS
-# - **Journal Reviewer**: [TMLR](https://jmlr.org/tmlr/); [IEEE SPL](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97); [IEEE OJCS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8782664)
 - **Teaching**: Lab session of *AI in Embedded Systems* \[B-KUL-B3076T\]
 - **Master Thesis Supervision**: T. Demeulenaere and S. Francq (2022-2023); L. De Jonckheere (2022-2023); A. Beigrezaei (2023-2024)
 
