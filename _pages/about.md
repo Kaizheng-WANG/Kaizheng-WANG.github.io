@@ -58,6 +58,12 @@ If you have any questions about my research or would like to collaborate with me
   The 28th International Conference on Artificial Intelligence and Statistics (**AISTATS**). 2025<br>
   </small>
 
+- [**Enhancing the Dependability of Autonomous Surface Vehicles through Robustness Benchmarking of Real-time Object Detection Models**](https://doi.org/10.1016/j.eswa.2025.129151)<br>
+  <small>
+  Yunjia Wang; Zihao Zhang, _**Kaizheng Wang**_, et al.<br>
+  **Expert Systems with Applications**, 129151. 2025<br>
+  </small>
+
 - [**Robust State and Protection-Level Estimation within Tightly Coupled GNSS/INS Navigation System**](https://doi.org/10.1007/s10291-023-01447-z)<br>
   <small>
   Shuchen Liu, _**Kaizheng Wang**_, Dirk Abel.<br>
