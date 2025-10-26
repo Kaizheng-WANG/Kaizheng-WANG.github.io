@@ -32,8 +32,7 @@ If you have any questions about my research or would like to collaborate with me
 
 
 # Selected Publications
-- [**A Review of Uncertainty Representation and Quantification in Neural Networks**]
-<!-- (https://openreview.net/forum?id=cv2iMNWCsh)<br> -->
+- [**A Review of Uncertainty Representation and Quantification in Neural Networks**]<br>
   <small>
   _**Kaizheng Wang**_, Fabio Cuzzolin, Keivan Shariatmadar, David Moens, Hans Hallez.<br>
   **IEEE Transactions on IEEE Transactions on Pattern Analysis and Machine Intelligence**, 2025. <br>
