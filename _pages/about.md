@@ -26,11 +26,18 @@ I am Kaizheng Wang (王凯征), a PhD candidate in the Department of Computer Sc
 If you have any questions about my research or would like to collaborate with me, please feel free to reach me.
 
 # News
-- **2025.02.12**: 🎉🎉 Our Credal Wrapper paper was awarded Spotlight by ICLR 2025 (3.3% acceptance rate).
-- **2025.01.22**: 🎉🎉 Two papers were accpeted by ICLR 2025.
+- **2025.10**: 🎉🎉 Our review paper was accpeted by TPAMI.
+- **2025.02**: 🎉🎉 Our Credal Wrapper paper was awarded Spotlight by ICLR 2025 (3.3% acceptance rate).
+- **2025.01**: 🎉🎉 Two papers were accpeted by ICLR 2025.
 
 
 # Selected Publications
+- [**A Review of Uncertainty Representation and Quantification in Neural Networks**]
+<!-- (https://openreview.net/forum?id=cv2iMNWCsh)<br> -->
+  <small>
+  _**Kaizheng Wang**_, Fabio Cuzzolin, Keivan Shariatmadar, David Moens, Hans Hallez.<br>
+  **IEEE Transactions on IEEE Transactions on Pattern Analysis and Machine Intelligence**, 2025. <br>
+  </small>
 - [**Credal Wrapper of Model Averaging for Uncertainty Estimation in Classification**](https://openreview.net/forum?id=cv2iMNWCsh)<br>
   <small>
   _**Kaizheng Wang**_, Fabio Cuzzolin, Keivan Shariatmadar, David Moens, Hans Hallez.<br>
@@ -73,7 +80,7 @@ If you have any questions about my research or would like to collaborate with me
 
 
 # Educations
-- **2021.11 - Present**: PhD in Computer Science, KU Leuven, Bruges, Belgium
+- **2021.11 - Present**: PhD in Engineering Technology, KU Leuven, Bruges, Belgium
 - **2018.04 - 2020.10**: MSc in Automation Engineering, RWTH Aachen University, Aachen, Germany
 - **2013.09 - 2017.06**: BEng in Mechatronics Engineering, Zhejiang University, Hangzhou, China
 
