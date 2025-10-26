@@ -35,7 +35,7 @@ If you have any questions about my research or would like to collaborate with me
 - **A Review of Uncertainty Representation and Quantification in Neural Networks** <br>
   <small>
   _**Kaizheng Wang**_, Fabio Cuzzolin, Keivan Shariatmadar, David Moens, Hans Hallez.<br>
-  **IEEE Transactions on IEEE Transactions on Pattern Analysis and Machine Intelligence**, 2025. <br>
+  **IEEE Transactions on Pattern Analysis and Machine Intelligence**, 2025. <br>
   </small>
 - [**Credal Wrapper of Model Averaging for Uncertainty Estimation in Classification**](https://openreview.net/forum?id=cv2iMNWCsh)<br>
   <small>
