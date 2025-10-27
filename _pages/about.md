@@ -85,14 +85,17 @@ If you have any questions about my research or would like to collaborate with me
 # Educations
 
 <style>
+/* 容器：占满可用宽度，但不把内容居中 */
 .edu-card-container {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  max-width: 700px; /* 限制整体宽度 */
-  margin: 0 auto;   /* 居中对齐整个区域 */
+  width: 100%;
+  /* 不设置 margin:0 auto; 以保证左对齐 */
+  padding-left: 0; /* 如果你的页面主体有内边距，可按需调整 */
 }
 
+/* 单个卡片：限定最大宽度，保证不太长，并且左对齐 */
 .edu-card {
   display: flex;
   align-items: center;
@@ -101,18 +104,23 @@ If you have any questions about my research or would like to collaborate with me
   padding: 14px 18px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  /* 关键：设置固定的 max-width，让卡片看起来不太长 */
   width: 100%;
-  max-width: 100%;
+  max-width: 760px;   /* ← 改这个值可以控制卡片“长度” */
+  margin-left: 0;     /* 左对齐（重要） */
 }
 
+/* 鼠标悬停微动画 */
 .edu-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.12);
 }
 
+/* logo 以高度为基准，保持比例 */
 .edu-card img {
-  height: 50px;
-  width: auto;
+  height: auto;
+  width: 140.0px;
   border-radius: 8px;
   margin-right: 15px;
   flex-shrink: 0;
@@ -121,38 +129,41 @@ If you have any questions about my research or would like to collaborate with me
   padding: 2px;
 }
 
-.edu-card div {
-  text-align: left; /* ✅ 让文字左对齐 */
-  line-height: 1.5;
+/* 文字左对齐（在卡片内） */
+.edu-card .edu-body {
+  text-align: left;
+  line-height: 1.45;
 }
 
+/* 文字样式 */
 .edu-card b {
   font-size: 1rem;
   color: #222;
 }
-
 .edu-card span {
   color: #666;
   font-size: 0.95rem;
 }
-
 .edu-card small {
   color: #888;
   font-size: 0.85rem;
 }
 
-/* 📱 Responsive: 手机端纵向布局 */
+/* 📱 手机端：卡片变竖排，宽度为100%（占满容器） */
 @media (max-width: 600px) {
   .edu-card {
     flex-direction: column;
     align-items: flex-start;
+    max-width: 100%;   /* 手机上占满 */
+    padding: 12px;
   }
   .edu-card img {
     margin-right: 0;
     margin-bottom: 8px;
   }
   .edu-card-container {
-    padding: 0 10px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 </style>
@@ -161,7 +172,7 @@ If you have any questions about my research or would like to collaborate with me
 
   <div class="edu-card">
     <img src="/assets/images/education/ku_leuven_v2.png" alt="KU Leuven">
-    <div>
+    <div class="edu-body">
       <b>PhD in Engineering Technology</b><br>
       <span>KU Leuven, Bruges, Belgium</span><br>
       <small>2021.11 - Present</small>
@@ -170,7 +181,7 @@ If you have any questions about my research or would like to collaborate with me
 
   <div class="edu-card">
     <img src="/assets/images/education/rwth_v2.png" alt="RWTH Aachen">
-    <div>
+    <div class="edu-body">
       <b>MSc in Automation Engineering</b><br>
       <span>RWTH Aachen University, Aachen, Germany</span><br>
       <small>2018.04 - 2020.10</small>
@@ -179,7 +190,7 @@ If you have any questions about my research or would like to collaborate with me
 
   <div class="edu-card">
     <img src="/assets/images/education/zju_v2.png" alt="Zhejiang University">
-    <div>
+    <div class="edu-body">
       <b>BEng in Mechatronics Engineering</b><br>
       <span>Zhejiang University, Hangzhou, China</span><br>
       <small>2013.09 - 2017.06</small>
