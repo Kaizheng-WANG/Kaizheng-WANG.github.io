@@ -107,7 +107,7 @@ If you have any questions about my research or would like to collaborate with me
 }
 
 .edu-card img {
-  width: 50px;
+  width: 140.9px;
   height: 50px;
   border-radius: 10px;
   margin-right: 15px;
