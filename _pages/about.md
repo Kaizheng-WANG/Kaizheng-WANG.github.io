@@ -89,60 +89,59 @@ If you have any questions about my research or would like to collaborate with me
   display: flex;
   flex-direction: column;
   gap: 15px;
+  max-width: 700px; /* 限制整体宽度 */
+  margin: 0 auto;   /* 居中对齐整个区域 */
 }
 
 .edu-card {
   display: flex;
   align-items: center;
-  background: #f9f9f9;
-  border-radius: 12px;
-  padding: 12px 16px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  background: #fafafa;
+  border-radius: 14px;
+  padding: 14px 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
+  max-width: 100%;
 }
 
 .edu-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.12);
 }
 
-/* .edu-card img {
-  width: 140.9px;
+.edu-card img {
   height: 50px;
-  border-radius: 10px;
-  margin-right: 15px;
-  flex-shrink: 0;
-} */
-
- .edu-card img {
-  height: 50px; /* 统一以高度为主 */
-  width: auto; /* 自动按比例缩放 */
+  width: auto;
   border-radius: 8px;
   margin-right: 15px;
   flex-shrink: 0;
-  object-fit: contain; /* 避免裁剪 */
-  background-color: white; /* 若是透明logo，可避免看不清 */
-  padding: 2px; /* 微调空隙感 */
+  object-fit: contain;
+  background-color: white;
+  padding: 2px;
 }
 
 .edu-card div {
-  line-height: 1.4;
+  text-align: left; /* ✅ 让文字左对齐 */
+  line-height: 1.5;
 }
 
 .edu-card b {
   font-size: 1rem;
+  color: #222;
 }
 
 .edu-card span {
-  color: gray;
+  color: #666;
+  font-size: 0.95rem;
 }
 
 .edu-card small {
-  color: #666;
+  color: #888;
   font-size: 0.85rem;
 }
 
-/* 📱 Responsive: */
+/* 📱 Responsive: 手机端纵向布局 */
 @media (max-width: 600px) {
   .edu-card {
     flex-direction: column;
@@ -152,6 +151,9 @@ If you have any questions about my research or would like to collaborate with me
     margin-right: 0;
     margin-bottom: 8px;
   }
+  .edu-card-container {
+    padding: 0 10px;
+  }
 }
 </style>
 
@@ -160,7 +162,7 @@ If you have any questions about my research or would like to collaborate with me
   <div class="edu-card">
     <img src="/assets/images/education/ku_leuven_v2.png" alt="KU Leuven">
     <div>
-      <b>PhD in Engineering Technology</b> <br>
+      <b>PhD in Engineering Technology</b><br>
       <span>KU Leuven, Bruges, Belgium</span><br>
       <small>2021.11 - Present</small>
     </div>
@@ -169,7 +171,7 @@ If you have any questions about my research or would like to collaborate with me
   <div class="edu-card">
     <img src="/assets/images/education/rwth_v2.png" alt="RWTH Aachen">
     <div>
-      <b>MSc in Automation Engineering</b> <br>
+      <b>MSc in Automation Engineering</b><br>
       <span>RWTH Aachen University, Aachen, Germany</span><br>
       <small>2018.04 - 2020.10</small>
     </div>
@@ -178,13 +180,14 @@ If you have any questions about my research or would like to collaborate with me
   <div class="edu-card">
     <img src="/assets/images/education/zju_v2.png" alt="Zhejiang University">
     <div>
-      <b>BEng in Mechatronics Engineering</b> <br>
+      <b>BEng in Mechatronics Engineering</b><br>
       <span>Zhejiang University, Hangzhou, China</span><br>
       <small>2013.09 - 2017.06</small>
     </div>
   </div>
 
 </div>
+
 
 
 # Academic and Educational Services
