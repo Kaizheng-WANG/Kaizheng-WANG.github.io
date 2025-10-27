@@ -106,12 +106,23 @@ If you have any questions about my research or would like to collaborate with me
   box-shadow: 0 3px 6px rgba(0,0,0,0.15);
 }
 
-.edu-card img {
+/* .edu-card img {
   width: 140.9px;
   height: 50px;
   border-radius: 10px;
   margin-right: 15px;
   flex-shrink: 0;
+} */
+
+ .edu-card img {
+  height: 50px; /* 统一以高度为主 */
+  width: auto; /* 自动按比例缩放 */
+  border-radius: 8px;
+  margin-right: 15px;
+  flex-shrink: 0;
+  object-fit: contain; /* 避免裁剪 */
+  background-color: white; /* 若是透明logo，可避免看不清 */
+  padding: 2px; /* 微调空隙感 */
 }
 
 .edu-card div {
