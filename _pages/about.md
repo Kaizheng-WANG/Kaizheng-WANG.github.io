@@ -78,10 +78,102 @@ If you have any questions about my research or would like to collaborate with me
   </small>
 
 
-# Educations
+<!-- # Educations
 - **2021.11 - Present**: PhD in Engineering Technology, KU Leuven, Bruges, Belgium
 - **2018.04 - 2020.10**: MSc in Automation Engineering, RWTH Aachen University, Aachen, Germany
-- **2013.09 - 2017.06**: BEng in Mechatronics Engineering, Zhejiang University, Hangzhou, China
+- **2013.09 - 2017.06**: BEng in Mechatronics Engineering, Zhejiang University, Hangzhou, China -->
+# Educations
+
+<style>
+.edu-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.edu-card {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 12px 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.edu-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.edu-card div {
+  line-height: 1.4;
+}
+
+.edu-card b {
+  font-size: 1rem;
+}
+
+.edu-card span {
+  color: gray;
+}
+
+.edu-card small {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+/* 📱 Responsive: */
+@media (max-width: 600px) {
+  .edu-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .edu-card img {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+}
+</style>
+
+<div class="edu-card-container">
+
+  <div class="edu-card">
+    <img src="/assets/images/education/ku_leuven.png" alt="KU Leuven">
+    <div>
+      <b>PhD in Engineering Technology</b> <br>
+      <span>KU Leuven, Bruges, Belgium</span><br>
+      <small>2021.11 - Present</small>
+    </div>
+  </div>
+
+  <div class="edu-card">
+    <img src="/assets/images/education/rwth.png" alt="RWTH Aachen">
+    <div>
+      <b>MSc in Automation Engineering</b> <br>
+      <span>RWTH Aachen University, Aachen, Germany</span><br>
+      <small>2018.04 - 2020.10</small>
+    </div>
+  </div>
+
+  <div class="edu-card">
+    <img src="/assets/images/education/zju.png" alt="Zhejiang University">
+    <div>
+      <b>BEng in Mechatronics Engineering</b> <br>
+      <span>Zhejiang University, Hangzhou, China</span><br>
+      <small>2013.09 - 2017.06</small>
+    </div>
+  </div>
+
+</div>
 
 
 # Academic and Educational Services
