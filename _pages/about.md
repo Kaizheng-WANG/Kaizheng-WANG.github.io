@@ -158,7 +158,7 @@ If you have any questions about my research or would like to collaborate with me
 <div class="edu-card-container">
 
   <div class="edu-card">
-    <img src="/assets/images/education/ku_leuven.png" alt="KU Leuven">
+    <img src="/assets/images/education/ku_leuven_v2.png" alt="KU Leuven">
     <div>
       <b>PhD in Engineering Technology</b> <br>
       <span>KU Leuven, Bruges, Belgium</span><br>
@@ -167,7 +167,7 @@ If you have any questions about my research or would like to collaborate with me
   </div>
 
   <div class="edu-card">
-    <img src="/assets/images/education/rwth.png" alt="RWTH Aachen">
+    <img src="/assets/images/education/rwth_v2.png" alt="RWTH Aachen">
     <div>
       <b>MSc in Automation Engineering</b> <br>
       <span>RWTH Aachen University, Aachen, Germany</span><br>
@@ -176,7 +176,7 @@ If you have any questions about my research or would like to collaborate with me
   </div>
 
   <div class="edu-card">
-    <img src="/assets/images/education/zju.png" alt="Zhejiang University">
+    <img src="/assets/images/education/zju_v2.png" alt="Zhejiang University">
     <div>
       <b>BEng in Mechatronics Engineering</b> <br>
       <span>Zhejiang University, Hangzhou, China</span><br>
