@@ -21,14 +21,17 @@ redirect_from:
 
 # About Me
 <!-- I am Kaizheng Wang (王凯征), a PhD candidate in the Department of Computer Science at KU Leuven’s Bruges Campus in Belgium, under the primary supervision of [Prof. Hans Hallez](https://www.kuleuven.be/wieiswie/en/person/00080562) and co-supervision from [Prof. David Moens](https://www.kuleuven.be/wieiswie/en/person/00012025) and [Dr. Keivan Shariatmadar](https://www.kuleuven.be/wieiswie/en/person/00115080). I also have the privilege of collaborating closely with [Prof. Fabio Cuzzolin](https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin). My current research centers on uncertainty representation and quantification in deep learning, aiming to enhance the robustness, reliability, and interpretability of machine learning models.-->
-I am Kaizheng Wang (王凯征), a PhD candidate in the Department of Computer Science at KU Leuven’s Bruges Campus in Belgium, under the primary supervision of [Prof. Hans Hallez](https://www.kuleuven.be/wieiswie/en/person/00080562) and [Prof. David Moens](https://www.kuleuven.be/wieiswie/en/person/00012025). I also have the privilege of collaborating closely with [Prof. Fabio Cuzzolin](https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin). My current research centers on uncertainty representation and quantification in deep learning, aiming to enhance the robustness, reliability, and trustworthiness of machine learning models. 
+<!-- I am Kaizheng Wang (王凯征), a PhD candidate in the Department of Computer Science at KU Leuven’s Bruges Campus in Belgium, under the primary supervision of [Prof. Hans Hallez](https://www.kuleuven.be/wieiswie/en/person/00080562) and [Prof. David Moens](https://www.kuleuven.be/wieiswie/en/person/00012025). I also have the privilege of collaborating closely with [Prof. Fabio Cuzzolin](https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin). My current research centers on uncertainty representation and quantification in deep learning, aiming to enhance the robustness, reliability, and trustworthiness of machine learning models.  -->
 
-If you have any questions about my research or would like to collaborate with me, please feel free to reach me.
+I am Kaizheng Wang (王凯征), an incoming postdoctoral research fellow at Epistemic Intelligence & Computation (EPIC) Lab within Nanyang Technological University, Singapore, under the supervision of [Prof. Siu Lun Chau](https://chau999.github.io/). I obtained PhD in the Department of Computer Science at KU Leuven’s Bruges Campus in Belgium, under the primary supervision of [Prof. Hans Hallez](https://www.kuleuven.be/wieiswie/en/person/00080562) and [Prof. David Moens](https://www.kuleuven.be/wieiswie/en/person/00012025). I also have the privilege of collaborating closely with [Prof. Fabio Cuzzolin](https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin).
+
+My current research centers on uncertainty representation and quantification in deep learning, aiming to enhance the robustness, reliability, and trustworthiness of machine learning models. If you have any questions about my research or would like to collaborate with me, please feel free to reach me.
 
 # News
-- **2025.10**: 🎉🎉 Our review paper was accpeted by TPAMI.
-- **2025.02**: 🎉🎉 Our Credal Wrapper paper was awarded Spotlight by ICLR 2025 (3.3% acceptance rate).
-- **2025.01**: 🎉🎉 Two papers were accpeted by ICLR 2025.
+- **2025.10.31**: 🎉🎉 I successfully publicly defended my PhD on *Deep Credal Neural Networks for Uncertainty Quantification*. I sincerely thank all the amazing people for their years of support, guidance, and encouragement.
+- **2025.10.26**: 🎉🎉 Our review paper was accpeted by TPAMI.
+- **2025.02.11**: 🎉🎉 Our Credal Wrapper paper was awarded Spotlight by ICLR 2025 (3.3% acceptance rate).
+- **2025.01.22**: 🎉🎉 Two papers were accpeted by ICLR 2025.
 
 
 # Selected Publications
@@ -175,7 +178,7 @@ If you have any questions about my research or would like to collaborate with me
     <div class="edu-body">
       <b>PhD in Engineering Technology</b><br>
       <span>KU Leuven, Bruges, Belgium</span><br>
-      <small>2021.11 - Present</small>
+      <small>2021.11 - 2025.10</small>
     </div>
   </div>
 
