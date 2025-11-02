@@ -7,9 +7,10 @@
 
 # Site Settings
 title                    : "Kaizheng Wang"
-description              : #"PhD @KU Leuven. Focusing on uncertainty quantification in deep learning."
+description              : "PhD@KU Leuven"
 repository               : # "RayeRen/acad-homepage.github.io"
 # google_scholar_stats_use_cdn : true
+# description              : "PhD@KU Leuven. Focusing on uncertainty quantification in deep learning."
 
 # google analytics
 # google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
