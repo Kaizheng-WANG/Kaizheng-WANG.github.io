@@ -28,7 +28,8 @@ I am Kaizheng Wang (王凯征), an incoming postdoctoral research fellow at Epis
 My current research centers on uncertainty representation and quantification in deep learning, aiming to enhance the robustness, reliability, and trustworthiness of machine learning models. If you have any questions about my research or would like to collaborate with me, please feel free to reach me.
 
 # News
-- **2025.10.31**: 🎉🎉 I successfully publicly defended my PhD on *Deep Credal Neural Networks for Uncertainty Quantification*. I sincerely thank all the amazing people for their years of support, guidance, and encouragement.
+- **2025.11.08**: 🎉🎉 Our Credal Ensemble Distillation paper was accpeted by AAAI 2026.
+- **2025.10.31**: 🎉🎉 I successfully defended my PhD on *Deep Credal Neural Networks for Uncertainty Quantification*. I sincerely thank all the amazing people for their years of support, guidance, and encouragement.
 - **2025.10.26**: 🎉🎉 Our review paper was accpeted by TPAMI.
 - **2025.02.11**: 🎉🎉 Our Credal Wrapper paper was awarded Spotlight by ICLR 2025 (3.3% acceptance rate).
 - **2025.01.22**: 🎉🎉 Two papers were accpeted by ICLR 2025.
