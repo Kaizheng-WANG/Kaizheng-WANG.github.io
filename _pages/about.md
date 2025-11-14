@@ -36,6 +36,11 @@ My current research centers on uncertainty representation and quantification in 
 
 
 # Selected Publications
+- **Credal Ensemble Distillation for Uncertainty Quantification**<br>
+  <small>
+  _**Kaizheng Wang**_, Fabio Cuzzolin, David Moens, Hans Hallez.<br>
+  The 40th Annual AAAI Conference on Artificial Intelligence **(AAAI)**, 2026. <br>
+  </small>
 - [**A Review of Uncertainty Representation and Quantification in Neural Networks**](https://ieeexplore.ieee.org/document/11219221)<br>
   <small>
   _**Kaizheng Wang**_, Fabio Cuzzolin, Keivan Shariatmadar, David Moens, Hans Hallez.<br>
@@ -44,41 +49,41 @@ My current research centers on uncertainty representation and quantification in 
 - [**Credal Wrapper of Model Averaging for Uncertainty Estimation in Classification**](https://openreview.net/forum?id=cv2iMNWCsh)<br>
   <small>
   _**Kaizheng Wang**_, Fabio Cuzzolin, Keivan Shariatmadar, David Moens, Hans Hallez.<br>
-  The 13th International Conference on Learning Representations (**ICLR**). 2025 \[**Spotlight**\]<br>
+  The 13th International Conference on Learning Representations (**ICLR**), 2025. \[**Spotlight**\]<br>
   </small>
 - [**CreINNs: Credal-Set Interval Neural Networks for Uncertainty Estimation in Classification Tasks**](https://www.sciencedirect.com/science/article/pii/S0893608025000772)<br>
   <small>
   _**Kaizheng Wang**_, Keivan Shariatmadar, Shireen Kudukkil Manchingal, Fabio Cuzzolin, David Moens, Hans Hallez.<br>
-  **Neural Networks**, Volume 185, 107198. 2025<br>
+  **Neural Networks**, Volume 185, 107198, 2025.<br>
   </small>
 - [**Credal Deep Ensembles for Uncertainty Quantification**](https://proceedings.neurips.cc/paper_files/paper/2024/hash/911fc798523e7d4c2e9587129fcf88fc-Abstract-Conference.html)<br>
   <small>
   _**Kaizheng Wang**_, Fabio Cuzzolin, Shireen Kudukkil Manchingal, Keivan Shariatmadar, David Moens, Hans Hallez.<br>
-  The 38th Annual Conference on Neural Information Processing Systems (**NeurIPS**). 2024<br>
+  The 38th Annual Conference on Neural Information Processing Systems (**NeurIPS**), 2024.<br>
   </small>
 
 - [**Enhancing the Dependability of Autonomous Surface Vehicles through Robustness Benchmarking of Real-time Object Detection Models**](https://doi.org/10.1016/j.eswa.2025.129151)<br>
   <small>
   Yunjia Wang; Zihao Zhang, _**Kaizheng Wang**_, et al.<br>
-  **Expert Systems with Applications**, 129151. 2025<br>
+  **Expert Systems with Applications**, 129151, 2025.<br>
   </small>
   
 - [**Random-Set Neural Networks**](https://openreview.net/forum?id=pdjkikvCch)<br>
   <small>
   Shireen Kudukkil Manchingal, Muhammad Mubashar, _**Kaizheng Wang**_, Keivan Shariatmadar, Fabio Cuzzolin.<br>
-  The 13th International Conference on Learning Representations (**ICLR**). 2025<br>
+  The 13th International Conference on Learning Representations (**ICLR**), 2025.<br>
   </small>
 - [**A Unified Evaluation Framework for Epistemic Predictions**](https://openreview.net/forum?id=kXC0Sdf8KN)<br>
   <small>
   Shireen Kudukkil Manchingal, Muhammad Mubashar, _**Kaizheng Wang**_, Fabio Cuzzolin.<br>
-  The 28th International Conference on Artificial Intelligence and Statistics (**AISTATS**). 2025<br>
+  The 28th International Conference on Artificial Intelligence and Statistics (**AISTATS**), 2025.<br>
   </small>
 
 
 - [**Robust State and Protection-Level Estimation within Tightly Coupled GNSS/INS Navigation System**](https://doi.org/10.1007/s10291-023-01447-z)<br>
   <small>
   Shuchen Liu, _**Kaizheng Wang**_, Dirk Abel.<br>
-  **GPS Solutions**, Volume 27, 111. 2023<br>
+  **GPS Solutions**, Volume 27, 111, 2023.<br>
   </small>
 
 
