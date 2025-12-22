@@ -36,7 +36,7 @@ My current research centers on uncertainty representation and quantification in 
 
 
 # Selected Publications
-- **Credal Ensemble Distillation for Uncertainty Quantification**<br>
+- [**Credal Ensemble Distillation for Uncertainty Quantification**](https://arxiv.org/abs/2511.13766)<br>
   <small>
   _**Kaizheng Wang**_, Fabio Cuzzolin, David Moens, Hans Hallez.<br>
   The 40th Annual AAAI Conference on Artificial Intelligence **(AAAI)**, 2026. <br>
