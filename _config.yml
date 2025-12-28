@@ -7,7 +7,8 @@
 
 # Site Settings
 title                    : "Kaizheng Wang"
-description              : "PhD @ KU Leuven, uncertainty quantification in deep learning"
+# description              : "PhD @ KU Leuven. Interested in deep learning, epistemic intelligence, uncertainty quantification."
+description              : "Making AI trustworthy through uncertainty quantification and epistemic intelligence"
 repository               : # "RayeRen/acad-homepage.github.io"
 # google_scholar_stats_use_cdn : true
 # description              : "PhD@KU Leuven. Focusing on uncertainty quantification in deep learning."
@@ -25,6 +26,7 @@ author:
   name             : "Kaizheng Wang"
   avatar           : "images/kaizheng.png"
   # bio              : "KU Leuven"
+  # bio              : "Nanyang"
   # location         : "Belgium"
   employer         :
   pubmed           : 
