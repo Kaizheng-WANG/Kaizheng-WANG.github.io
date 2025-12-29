@@ -44,7 +44,7 @@ My current research centers on uncertainty representation and quantification in 
 - [**A Review of Uncertainty Representation and Quantification in Neural Networks**](https://ieeexplore.ieee.org/document/11219221)<br>
   <small>
   _**Kaizheng Wang**_, Fabio Cuzzolin, Keivan Shariatmadar, David Moens, Hans Hallez.<br>
-  **IEEE Transactions on Pattern Analysis and Machine Intelligence**, 2025. <br>
+  IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), 2025. <br>
   </small>
 - [**Credal Wrapper of Model Averaging for Uncertainty Estimation in Classification**](https://openreview.net/forum?id=cv2iMNWCsh)<br>
   <small>
@@ -54,7 +54,7 @@ My current research centers on uncertainty representation and quantification in 
 - [**CreINNs: Credal-Set Interval Neural Networks for Uncertainty Estimation in Classification Tasks**](https://www.sciencedirect.com/science/article/pii/S0893608025000772)<br>
   <small>
   _**Kaizheng Wang**_, Keivan Shariatmadar, Shireen Kudukkil Manchingal, Fabio Cuzzolin, David Moens, Hans Hallez.<br>
-  **Neural Networks**, Volume 185, 107198, 2025.<br>
+  Neural Networks (**NN**), Volume 185, 107198, 2025.<br>
   </small>
 - [**Credal Deep Ensembles for Uncertainty Quantification**](https://proceedings.neurips.cc/paper_files/paper/2024/hash/911fc798523e7d4c2e9587129fcf88fc-Abstract-Conference.html)<br>
   <small>
@@ -65,7 +65,7 @@ My current research centers on uncertainty representation and quantification in 
 - [**Enhancing the Dependability of Autonomous Surface Vehicles through Robustness Benchmarking of Real-time Object Detection Models**](https://doi.org/10.1016/j.eswa.2025.129151)<br>
   <small>
   Yunjia Wang; Zihao Zhang, _**Kaizheng Wang**_, et al.<br>
-  **Expert Systems with Applications**, 129151, 2025.<br>
+  Expert Systems with Applications (**ESWA**), 129151, 2025.<br>
   </small>
   
 - [**Random-Set Neural Networks**](https://openreview.net/forum?id=pdjkikvCch)<br>
@@ -83,7 +83,7 @@ My current research centers on uncertainty representation and quantification in 
 - [**Robust State and Protection-Level Estimation within Tightly Coupled GNSS/INS Navigation System**](https://doi.org/10.1007/s10291-023-01447-z)<br>
   <small>
   Shuchen Liu, _**Kaizheng Wang**_, Dirk Abel.<br>
-  **GPS Solutions**, Volume 27, 111, 2023.<br>
+  GPS Solutions (**GPS Solut**), Volume 27, 111, 2023.<br>
   </small>
 
 
@@ -212,7 +212,7 @@ My current research centers on uncertainty representation and quantification in 
 
 # Academic and Educational Services
 - **Workshop Organization**: Co-organizer of [E-pi UAI 2023](https://sites.google.com/view/epi-workshop-uai-2023/home?authuser=0)
-- **Conference Reviewer**: NeurIPS; ICLR; ICML; AISTATS
+- **Conference Reviewer**: NeurIPS; ICLR; ICML; AAAI; IJCAI; AISTATS
 - **Journal Reviewer**: TMLR; IEEE SPL; IEEE OJCS
 - **Teaching**: Lab session of *AI in Embedded Systems* \[B-KUL-B3076T\]
 - **Master Thesis Supervision**: T. Demeulenaere and S. Francq (2022-2023); L. De Jonckheere (2022-2023); A. Beigrezaei (2023-2024)
