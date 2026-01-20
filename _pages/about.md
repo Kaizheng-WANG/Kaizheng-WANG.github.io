@@ -30,6 +30,7 @@ I am Kaizheng Wang (王凯征), a postdoctoral research fellow at the College of
 My current research centers on uncertainty representation and quantification in deep learning, aiming to enhance the robustness, reliability, and trustworthiness of machine learning models. If you have any questions about my research or would like to collaborate with me, please feel free to reach me.
 
 # News
+- **2026.01.12**: 🎉🎉 I officially started my journey as a research fellow at NTU.
 - **2025.11.08**: 🎉🎉 Our Credal Ensemble Distillation paper was accpeted by AAAI 2026.
 - **2025.10.31**: 🎉🎉 I successfully defended my PhD on *Deep Credal Neural Networks for Uncertainty Quantification*. I sincerely thank all the amazing people for their years of support, guidance, and encouragement.
 - **2025.10.26**: 🎉🎉 Our review paper was accpeted by TPAMI.
