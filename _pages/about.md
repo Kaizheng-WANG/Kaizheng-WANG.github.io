@@ -47,7 +47,7 @@ My current research centers on uncertainty representation and quantification in 
 - [**A Review of Uncertainty Representation and Quantification in Neural Networks**](https://ieeexplore.ieee.org/document/11219221)<br>
   <small>
   _**Kaizheng Wang**_, Fabio Cuzzolin, Keivan Shariatmadar, David Moens, Hans Hallez.<br>
-  IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), 2025. <br>
+  IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), Volume 48, 2476-2495, 2026. <br>
   </small>
 - [**Credal Wrapper of Model Averaging for Uncertainty Estimation in Classification**](https://openreview.net/forum?id=cv2iMNWCsh)<br>
   <small>
@@ -67,8 +67,8 @@ My current research centers on uncertainty representation and quantification in 
 
 - [**Enhancing the Dependability of Autonomous Surface Vehicles through Robustness Benchmarking of Real-time Object Detection Models**](https://doi.org/10.1016/j.eswa.2025.129151)<br>
   <small>
-  Yunjia Wang; Zihao Zhang, _**Kaizheng Wang**_, et al.<br>
-  Expert Systems with Applications (**ESWA**), 129151, 2025.<br>
+  Yunjia Wang; Zihao Zhang, _**Kaizheng Wang**_, Holger Caesar, Jeroen Boydens, Davy Pissoort, Mathias Verbeke.<br>
+  Expert Systems with Applications (**ESWA**), Volume 296, 129151, 2026.<br>
   </small>
   
 - [**Random-Set Neural Networks**](https://openreview.net/forum?id=pdjkikvCch)<br>
