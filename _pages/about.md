@@ -38,7 +38,7 @@ My current research centers on uncertainty representation and quantification in 
 - **2025.01.22**: 🎉🎉 Two papers were accpeted by ICLR 2025.
 
 
-# Selected Publications
+<!-- # Selected Publications
 - [**Credal Ensemble Distillation for Uncertainty Quantification**](https://arxiv.org/abs/2511.13766)<br>
   <small>
   _**Kaizheng Wang**_, Fabio Cuzzolin, David Moens, Hans Hallez.<br>
@@ -87,8 +87,31 @@ My current research centers on uncertainty representation and quantification in 
   <small>
   Shuchen Liu, _**Kaizheng Wang**_, Dirk Abel.<br>
   GPS Solutions (**GPS Solut**), Volume 27, 111, 2023.<br>
-  </small>
+  </small> -->
+# Selected Publications
 
+## First-Author Publications
+
+{% assign first_author = site.data.publications | where_exp:"p","p.is_first_author == true" | sort:"year" | reverse %}
+{% for p in first_author %}
+- **M{{ forloop.index }}.** [{{ p.title }}]({{ p.url }})
+  <small>
+  {{ p.authors }}<br>
+  {{ p.venue }} {{ p.year }}
+  </small>
+{% endfor %}
+
+<div style="border-top: 1px solid #e5e5e5; margin:50px 0 25px 0;"></div>
+<p style="color:#999;font-size:0.9em;margin-bottom:20px;">Co-authored Publications</p>
+
+{% assign co_authored = site.data.publications | where_exp:"p","p.is_first_author == false" | sort:"year" | reverse %}
+{% for p in co_authored %}
+- **C{{ forloop.index }}.** [{{ p.title }}]({{ p.url }})
+  <small>
+  {{ p.authors }}<br>
+  {{ p.venue }} {{ p.year }}
+  </small>
+{% endfor %}
 
 <!-- # Educations
 - **2021.11 - Present**: PhD in Engineering Technology, KU Leuven, Bruges, Belgium
