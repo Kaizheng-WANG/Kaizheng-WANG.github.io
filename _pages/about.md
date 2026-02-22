@@ -37,7 +37,6 @@ My current research centers on uncertainty representation and quantification in 
 - **2025.02.11**: 🎉🎉 Our Credal Wrapper paper was awarded Spotlight by ICLR 2025 (3.3% acceptance rate).
 - **2025.01.22**: 🎉🎉 Two papers were accpeted by ICLR 2025.
 
-
 # Selected Publications
 - [**Credal Ensemble Distillation for Uncertainty Quantification**](https://arxiv.org/abs/2511.13766)<br>
   <small>
@@ -88,37 +87,8 @@ My current research centers on uncertainty representation and quantification in 
   Shuchen Liu, _**Kaizheng Wang**_, Dirk Abel.<br>
   GPS Solutions (**GPS Solut**), Volume 27, 111, 2023.<br>
   </small>
-<!-- # Selected Publications
 
-## First-Author Publications
-
-{% assign first_author = site.data.publications | where_exp:"p","p.is_first_author == true" | sort:"year" | reverse %}
-{% for p in first_author %}
-- **M{{ forloop.index }}.** [{{ p.title }}]({{ p.url }})
-  <small>
-  {{ p.authors }}<br>
-  {{ p.venue }} {{ p.year }}
-  </small>
-{% endfor %}
-
-<div style="border-top: 1px solid #e5e5e5; margin:50px 0 25px 0;"></div>
-<p style="color:#999;font-size:0.9em;margin-bottom:20px;">Co-authored Publications</p>
-
-{% assign co_authored = site.data.publications | where_exp:"p","p.is_first_author == false" | sort:"year" | reverse %}
-{% for p in co_authored %}
-- **C{{ forloop.index }}.** [{{ p.title }}]({{ p.url }})
-  <small>
-  {{ p.authors }}<br>
-  {{ p.venue }} {{ p.year }}
-  </small>
-{% endfor %} -->
-
-<!-- # Educations
-- **2021.11 - Present**: PhD in Engineering Technology, KU Leuven, Bruges, Belgium
-- **2018.04 - 2020.10**: MSc in Automation Engineering, RWTH Aachen University, Aachen, Germany
-- **2013.09 - 2017.06**: BEng in Mechatronics Engineering, Zhejiang University, Hangzhou, China -->
 # Educations
-
 <style>
 /* 容器：占满可用宽度，但不把内容居中 */
 .edu-card-container {
