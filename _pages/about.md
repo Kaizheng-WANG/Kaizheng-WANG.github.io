@@ -46,12 +46,22 @@ My current research centers on uncertainty representation and quantification in 
 ## First-Author Papers
 
 {% for pub in first_author_pubs %}
+{% assign authors_clean = pub.authors | strip %}
+{% assign authors_bold = authors_clean | replace: "Kaizheng Wang", "<strong>Kaizheng Wang</strong>" %}
+{% if authors_bold == authors_clean %}
+  {% comment %}尝试带逗号空格的形式{% endcomment %}
+  {% assign authors_bold = authors_clean | replace: "Kaizheng Wang,", "<strong>Kaizheng Wang</strong>," %}
+{% endif %}
 - [**{{ pub.title }}**]({{ pub.paperurl }})  
-  <small><em>{{ pub.authors | replace: "Kaizheng Wang", "<strong>Kaizheng Wang</strong>" }}</em>.  
+  <small><em>{{ authors_bold }}</em>.  
   {{ pub.venue_full }}{% if pub.venue_full == nil %}{{ pub.venue }}{% endif %} 
   (<strong>{{ pub.venue }}</strong>), {{ pub.date | date: "%Y" }}.
-  {% if pub.note %}
-    {% if pub.highlight %}
+  {% if pub.note and pub.note != "" %}
+    {% assign highlight_flag = false %}
+    {% if pub.highlight == true or pub.highlight == "true" %}
+      {% assign highlight_flag = true %}
+    {% endif %}
+    {% if highlight_flag %}
       <span style="color: red; font-weight: bold;">{{ pub.note }}.</span>
     {% else %}
       {{ pub.note }}.
@@ -63,12 +73,21 @@ My current research centers on uncertainty representation and quantification in 
 ## Co-Author Papers
 
 {% for pub in coauthor_pubs %}
+{% assign authors_clean = pub.authors | strip %}
+{% assign authors_bold = authors_clean | replace: "Kaizheng Wang", "<strong>Kaizheng Wang</strong>" %}
+{% if authors_bold == authors_clean %}
+  {% assign authors_bold = authors_clean | replace: "Kaizheng Wang,", "<strong>Kaizheng Wang</strong>," %}
+{% endif %}
 - [**{{ pub.title }}**]({{ pub.paperurl }})  
-  <small><em>{{ pub.authors | replace: "Kaizheng Wang", "<strong>Kaizheng Wang</strong>" }}</em>.  
+  <small><em>{{ authors_bold }}</em>.  
   {{ pub.venue_full }}{% if pub.venue_full == nil %}{{ pub.venue }}{% endif %} 
   (<strong>{{ pub.venue }}</strong>), {{ pub.date | date: "%Y" }}.
-  {% if pub.note %}
-    {% if pub.highlight %}
+  {% if pub.note and pub.note != "" %}
+    {% assign highlight_flag = false %}
+    {% if pub.highlight == true or pub.highlight == "true" %}
+      {% assign highlight_flag = true %}
+    {% endif %}
+    {% if highlight_flag %}
       <span style="color: red; font-weight: bold;">{{ pub.note }}.</span>
     {% else %}
       {{ pub.note }}.
