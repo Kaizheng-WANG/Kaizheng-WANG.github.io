@@ -44,7 +44,6 @@ My current research centers on uncertainty representation and quantification in 
     | reverse %}
 
 <!-- <h2>First-Author Papers</h2> -->
-
 <ul>
 {% for pub in first_author_pubs %}
   {% assign authors_clean = pub.authors | strip %}
