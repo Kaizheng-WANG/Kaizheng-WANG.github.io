@@ -48,9 +48,7 @@ My current research centers on uncertainty representation and quantification in 
 <ul>
 {% for pub in first_author_pubs %}
   {% assign authors_clean = pub.authors | strip %}
-  {% comment %}优先替换带逗号的名字（因为列表中名字后通常跟逗号）{% endcomment %}
   {% assign authors_bold = authors_clean | replace: "Kaizheng Wang,", "<strong>Kaizheng Wang</strong>," %}
-  {% comment %}如果未替换（例如是最后一个作者），尝试不带逗号的版本{% endcomment %}
   {% if authors_bold == authors_clean %}
     {% assign authors_bold = authors_clean | replace: "Kaizheng Wang", "<strong>Kaizheng Wang</strong>" %}
   {% endif %}
