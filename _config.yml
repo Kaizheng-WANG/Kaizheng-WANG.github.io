@@ -7,12 +7,9 @@
 
 # Site Settings
 title                    : "Kaizheng Wang"
-# description              : "PhD @ KU Leuven. Interested in deep learning, epistemic intelligence, uncertainty quantification."
-description              : "Making AI trustworthy through uncertainty quantification and epistemic intelligence"
+description              : "Postdoctoral Research Fellow"
 repository               : # "RayeRen/acad-homepage.github.io"
 # google_scholar_stats_use_cdn : true
-# description              : "PhD@KU Leuven. Focusing on uncertainty quantification in deep learning."
-
 # google analytics
 # google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
@@ -25,13 +22,12 @@ repository               : # "RayeRen/acad-homepage.github.io"
 author:
   name             : "Kaizheng Wang"
   avatar           : "images/kaizheng.png"
-  # bio              : "KU Leuven"
-  # bio              : "Nanyang"
-  # location         : "Belgium"
+  bio              : "Nanyang Technological University"
+  location         : "Singapore"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=FbWkCh0AAAAJ"
-  email            : "kaizheng.wang@kuleuven.be"
+  email            : "kaizheng.wang@ntu.edu.sg"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
