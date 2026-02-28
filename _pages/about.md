@@ -32,23 +32,42 @@ My current research centers on uncertainty representation and quantification in 
 - **2025.02.11**: 🎉🎉 Our Credal Wrapper paper was awarded Spotlight by ICLR 2025 (3.3% acceptance rate).
 - **2025.01.22**: 🎉🎉 Two papers were accpeted by ICLR 2025.
 
-# Selected Publications
+# Publications
 
-{% assign pubs = site.publications | where: "selected", true | sort: "date" | reverse %}
+{% assign first_author_pubs = site.publications 
+    | where: "first_author", true 
+    | sort: "date" 
+    | reverse %}
 
-{% for pub in pubs %}
-- **[{{ pub.title }}]({{ pub.paperurl }})**  
-<li>
-  <strong>Title</strong><br>
-  <span style="font-size: 0.9em;">
-    Authors.<br>
-    Venue.
-  </span>
-</li>
+{% assign coauthor_pubs = site.publications 
+    | where: "first_author", false 
+    | sort: "date" 
+    | reverse %}
+
+## First-Author Papers
+
+{% for pub in first_author_pubs %}
+- [**{{ pub.title }}**]({{ pub.paperurl }})  
+  <small>
+  _{{ pub.authors }}_.  
+  {{ pub.venue_full }}{% if pub.venue_full == nil %}{{ pub.venue }}{% endif %} 
+  (<strong>{{ pub.venue }}</strong>), {{ pub.date | date: "%Y" }}.
+  {% if pub.note %}{{ pub.note }}.{% endif %}
+  </small>
 
 {% endfor %}
 
-[→ Full publication list](/publications/)
+## Co-Author Papers
+
+{% for pub in coauthor_pubs %}
+- [**{{ pub.title }}**]({{ pub.paperurl }})  
+  <small>
+  _{{ pub.authors }}_.  
+  {{ pub.venue_full }}{% if pub.venue_full == nil %}{{ pub.venue }}{% endif %} 
+  (<strong>{{ pub.venue }}</strong>), {{ pub.date | date: "%Y" }}.
+  </small>
+
+{% endfor %}
 
 # Educations
 <style>
