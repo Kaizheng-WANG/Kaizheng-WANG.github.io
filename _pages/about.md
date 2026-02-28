@@ -38,11 +38,13 @@ My current research centers on uncertainty representation and quantification in 
 
 {% for pub in pubs %}
 - **[{{ pub.title }}]({{ pub.paperurl }})**  
-  <small>
-  {{ pub.authors }}.<br>
-  <i>{{ pub.venue_full }}</i> (<strong>{{ pub.venue }}</strong>), {{ pub.date | date: "%Y" }}.
-  {% if pub.note %} <strong>— {{ pub.note }}</strong>{% endif %}
-  </small>
+<li>
+  <strong>Title</strong><br>
+  <span style="font-size: 0.9em;">
+    Authors.<br>
+    Venue.
+  </span>
+</li>
 
 {% endfor %}
 
