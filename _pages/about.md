@@ -43,7 +43,7 @@ My current research centers on uncertainty representation and quantification in 
     | sort: "date" 
     | reverse %}
 
-<h2>First-Author Papers</h2>
+<!-- <h2>First-Author Papers</h2> -->
 
 <ul>
 {% for pub in first_author_pubs %}
@@ -73,7 +73,7 @@ My current research centers on uncertainty representation and quantification in 
 {% endfor %}
 </ul>
 
-<h2>Co-Author Papers</h2>
+<!-- <h2>Co-Author Papers</h2> -->
 
 <ul>
 {% for pub in coauthor_pubs %}
