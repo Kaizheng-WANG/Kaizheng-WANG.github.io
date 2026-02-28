@@ -43,58 +43,63 @@ My current research centers on uncertainty representation and quantification in 
     | sort: "date" 
     | reverse %}
 
-## First-Author Papers
+<h2>First-Author Papers</h2>
 
+<ul>
 {% for pub in first_author_pubs %}
-{% assign authors_clean = pub.authors | strip %}
-{% assign authors_bold = authors_clean | replace: "Kaizheng Wang", "<strong>Kaizheng Wang</strong>" %}
-{% if authors_bold == authors_clean %}
-  {% comment %}尝试带逗号空格的形式{% endcomment %}
+  {% assign authors_clean = pub.authors | strip %}
+  {% comment %}优先替换带逗号的名字（因为列表中名字后通常跟逗号）{% endcomment %}
   {% assign authors_bold = authors_clean | replace: "Kaizheng Wang,", "<strong>Kaizheng Wang</strong>," %}
-{% endif %}
-- [**{{ pub.title }}**]({{ pub.paperurl }})  
-  <small><em>{{ authors_bold }}</em>.  
-  {{ pub.venue_full }}{% if pub.venue_full == nil %}{{ pub.venue }}{% endif %} 
-  (<strong>{{ pub.venue }}</strong>), {{ pub.date | date: "%Y" }}.
-  {% if pub.note and pub.note != "" %}
-    {% assign highlight_flag = false %}
-    {% if pub.highlight == true or pub.highlight == "true" %}
-      {% assign highlight_flag = true %}
-    {% endif %}
-    {% if highlight_flag %}
-      <span style="color: red; font-weight: bold;">{{ pub.note }}.</span>
-    {% else %}
-      {{ pub.note }}.
-    {% endif %}
-  {% endif %}</small>
-
+  {% comment %}如果未替换（例如是最后一个作者），尝试不带逗号的版本{% endcomment %}
+  {% if authors_bold == authors_clean %}
+    {% assign authors_bold = authors_clean | replace: "Kaizheng Wang", "<strong>Kaizheng Wang</strong>" %}
+  {% endif %}
+  <li>
+    <a href="{{ pub.paperurl }}"><strong>{{ pub.title }}</strong></a><br>
+    <small><em>{{ authors_bold }}</em>.<br>
+    {{ pub.venue_full | default: pub.venue }} (<strong>{{ pub.venue }}</strong>), {{ pub.date | date: "%Y" }}.
+    {% if pub.note and pub.note != "" %}
+      {% assign highlight_flag = false %}
+      {% if pub.highlight == true or pub.highlight == "true" %}
+        {% assign highlight_flag = true %}
+      {% endif %}
+      {% if highlight_flag %}
+        <span style="color: red; font-weight: bold;">{{ pub.note }}.</span>
+      {% else %}
+        {{ pub.note }}.
+      {% endif %}
+    {% endif %}</small>
+  </li>
 {% endfor %}
+</ul>
 
-## Co-Author Papers
+<h2>Co-Author Papers</h2>
 
+<ul>
 {% for pub in coauthor_pubs %}
-{% assign authors_clean = pub.authors | strip %}
-{% assign authors_bold = authors_clean | replace: "Kaizheng Wang", "<strong>Kaizheng Wang</strong>" %}
-{% if authors_bold == authors_clean %}
+  {% assign authors_clean = pub.authors | strip %}
   {% assign authors_bold = authors_clean | replace: "Kaizheng Wang,", "<strong>Kaizheng Wang</strong>," %}
-{% endif %}
-- [**{{ pub.title }}**]({{ pub.paperurl }})  
-  <small><em>{{ authors_bold }}</em>.  
-  {{ pub.venue_full }}{% if pub.venue_full == nil %}{{ pub.venue }}{% endif %} 
-  (<strong>{{ pub.venue }}</strong>), {{ pub.date | date: "%Y" }}.
-  {% if pub.note and pub.note != "" %}
-    {% assign highlight_flag = false %}
-    {% if pub.highlight == true or pub.highlight == "true" %}
-      {% assign highlight_flag = true %}
-    {% endif %}
-    {% if highlight_flag %}
-      <span style="color: red; font-weight: bold;">{{ pub.note }}.</span>
-    {% else %}
-      {{ pub.note }}.
-    {% endif %}
-  {% endif %}</small>
-
+  {% if authors_bold == authors_clean %}
+    {% assign authors_bold = authors_clean | replace: "Kaizheng Wang", "<strong>Kaizheng Wang</strong>" %}
+  {% endif %}
+  <li>
+    <a href="{{ pub.paperurl }}"><strong>{{ pub.title }}</strong></a><br>
+    <small><em>{{ authors_bold }}</em>.<br>
+    {{ pub.venue_full | default: pub.venue }} (<strong>{{ pub.venue }}</strong>), {{ pub.date | date: "%Y" }}.
+    {% if pub.note and pub.note != "" %}
+      {% assign highlight_flag = false %}
+      {% if pub.highlight == true or pub.highlight == "true" %}
+        {% assign highlight_flag = true %}
+      {% endif %}
+      {% if highlight_flag %}
+        <span style="color: red; font-weight: bold;">{{ pub.note }}.</span>
+      {% else %}
+        {{ pub.note }}.
+      {% endif %}
+    {% endif %}</small>
+  </li>
 {% endfor %}
+</ul>
 
 # Educations
 <style>

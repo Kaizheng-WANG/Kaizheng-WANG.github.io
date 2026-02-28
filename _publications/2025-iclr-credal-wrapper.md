@@ -10,6 +10,6 @@ authors: "Kaizheng Wang, Fabio Cuzzolin, Keivan Shariatmadar, David Moens, Hans 
 type: "conference"
 selected: true
 first_author: true
-highlight: Flase
+highlight: True
 note: "Spotlight"
 ---
