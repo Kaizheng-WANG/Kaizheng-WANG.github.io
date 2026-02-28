@@ -32,29 +32,21 @@ My current research centers on uncertainty representation and quantification in 
 - **2025.02.11**: 🎉🎉 Our Credal Wrapper paper was awarded Spotlight by ICLR 2025 (3.3% acceptance rate).
 - **2025.01.22**: 🎉🎉 Two papers were accpeted by ICLR 2025.
 
-# Publications
+# Selected Publications
 
 {% assign pubs = site.publications | where: "selected", true | sort: "date" | reverse %}
 
 {% for pub in pubs %}
-<div style="margin-bottom: 1.2em; padding: 0.8em 1em; border-radius: 12px; background: {% if pub.highlight %}#fff4e6{% else %}#f8f9fa{% endif %};">
+- **[{{ pub.title }}]({{ pub.paperurl }})**  
+  <small>
+  {{ pub.authors }}.<br>
+  <i>{{ pub.venue_full }}</i> (<strong>{{ pub.venue }}</strong>), {{ pub.date | date: "%Y" }}.
+  {% if pub.note %} <strong>— {{ pub.note }}</strong>{% endif %}
+  </small>
 
-<strong>
-<a href="{{ pub.paperurl }}" target="_blank">{{ pub.title }}</a>
-{% if pub.highlight %}
-<span style="color:#d9480f;"> 🔥 {{ pub.note }}</span>
-{% endif %}
-</strong>
-
-<br>
-
-<small>
-{{ pub.authors }}<br>
-<i>{{ pub.venue_full }}</i> (<strong>{{ pub.venue }}</strong>), {{ pub.date | date: "%Y" }}.
-</small>
-
-</div>
 {% endfor %}
+
+[→ Full publication list](/publications/)
 
 # Educations
 <style>
