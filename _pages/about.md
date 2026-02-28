@@ -51,7 +51,11 @@ My current research centers on uncertainty representation and quantification in 
   {{ pub.venue_full }}{% if pub.venue_full == nil %}{{ pub.venue }}{% endif %} 
   (<strong>{{ pub.venue }}</strong>), {{ pub.date | date: "%Y" }}.
   {% if pub.note %}
-    {% if pub.highlight %}<span style="color: red;">{{ pub.note }}</span>{% else %}{{ pub.note }}{% endif %}.
+    {% if pub.highlight %}
+      <span style="color: red; font-weight: bold;">{{ pub.note }}.</span>
+    {% else %}
+      {{ pub.note }}.
+    {% endif %}
   {% endif %}</small>
 
 {% endfor %}
@@ -64,9 +68,12 @@ My current research centers on uncertainty representation and quantification in 
   {{ pub.venue_full }}{% if pub.venue_full == nil %}{{ pub.venue }}{% endif %} 
   (<strong>{{ pub.venue }}</strong>), {{ pub.date | date: "%Y" }}.
   {% if pub.note %}
-  {% if pub.highlight %}<span style="color: red;">{{ pub.note }}</span>{% else %}{{ pub.note }}{% endif %}.
-  {% endif %}
-  </small>
+    {% if pub.highlight %}
+      <span style="color: red; font-weight: bold;">{{ pub.note }}.</span>
+    {% else %}
+      {{ pub.note }}.
+    {% endif %}
+  {% endif %}</small>
 
 {% endfor %}
 
