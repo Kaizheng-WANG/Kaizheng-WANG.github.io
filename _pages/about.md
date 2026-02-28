@@ -32,8 +32,6 @@ My current research centers on uncertainty representation and quantification in 
 - **2025.02.11**: 🎉🎉 Our Credal Wrapper paper was awarded Spotlight by ICLR 2025 (3.3% acceptance rate).
 - **2025.01.22**: 🎉🎉 Two papers were accpeted by ICLR 2025.
 
-# Publications
-
 {% assign first_author_pubs = site.publications 
     | where: "first_author", true 
     | sort: "date" 
@@ -48,12 +46,10 @@ My current research centers on uncertainty representation and quantification in 
 
 {% for pub in first_author_pubs %}
 - [**{{ pub.title }}**]({{ pub.paperurl }})  
-  <small>
-  _{{ pub.authors }}_.  
+  <small><em>{{ pub.authors | replace: "Kaizheng Wang", "<strong>Kaizheng Wang</strong>" }}</em>.  
   {{ pub.venue_full }}{% if pub.venue_full == nil %}{{ pub.venue }}{% endif %} 
   (<strong>{{ pub.venue }}</strong>), {{ pub.date | date: "%Y" }}.
-  {% if pub.note %}{{ pub.note }}.{% endif %}
-  </small>
+  {% if pub.note %}{{ pub.note }}.{% endif %}</small>
 
 {% endfor %}
 
@@ -61,8 +57,7 @@ My current research centers on uncertainty representation and quantification in 
 
 {% for pub in coauthor_pubs %}
 - [**{{ pub.title }}**]({{ pub.paperurl }})  
-  <small>
-  _{{ pub.authors }}_.  
+  <small><em>{{ pub.authors | replace: "Kaizheng Wang", "<strong>Kaizheng Wang</strong>" }}</em>.  
   {{ pub.venue_full }}{% if pub.venue_full == nil %}{{ pub.venue }}{% endif %} 
   (<strong>{{ pub.venue }}</strong>), {{ pub.date | date: "%Y" }}.
   </small>
