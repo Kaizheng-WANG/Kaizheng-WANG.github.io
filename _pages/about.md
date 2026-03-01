@@ -17,6 +17,31 @@ redirect_from:
 
 <!-- <span class='anchor' id='about-me'></span>-->
 
+{% if site.author %}
+<div class="author-profile" style="text-align: center; margin-bottom: 2rem;">
+  {% if site.author.avatar %}
+    {% assign avatar_path = site.author.avatar | prepend: "/" | relative_url %}
+    <img src="{{ avatar_path }}" alt="{{ site.author.name }}" style="border-radius: 50%; width: 150px; margin-bottom: 1rem;">
+  {% endif %}
+  <h1>{{ site.author.name }}</h1>
+  <p>{{ site.author.bio }}</p>
+  <p>{{ site.author.location }}</p>
+  <p>
+    {% if site.author.email %}
+      <a href="mailto:{{ site.author.email }}">Email</a>
+    {% endif %}
+    {% if site.author.googlescholar %}
+      {% if site.author.email %} | {% endif %}
+      <a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a>
+    {% endif %}
+    {% if site.author.linkedin %}
+      {% if site.author.email or site.author.googlescholar %} | {% endif %}
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank">LinkedIn</a>
+    {% endif %}
+  </p>
+</div>
+{% endif %}
+
 # About Me
 <p style="text-align: justify;">
 I am Kaizheng Wang (王凯征), a postdoctoral research fellow at the College of Computing and Data Science, Nanyang Technological University, Singapore, working under the supervision of <a href="https://chau999.github.io/">Prof. Siu Lun Chau</a>. I obtained my PhD from the Department of Computer Science at KU Leuven, Belgium, where I was advised by <a href="https://www.kuleuven.be/wieiswie/en/person/00080562">Prof. Hans Hallez</a> and <a href="https://www.kuleuven.be/wieiswie/en/person/00012025">Prof. David Moens</a>. I have also had the privilege of working closely with <a href="https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin">Prof. Fabio Cuzzolin</a>, from whom I have also received invaluable guidance.
