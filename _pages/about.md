@@ -21,24 +21,53 @@ redirect_from:
 <div class="author-profile" style="text-align: center; margin-bottom: 2rem;">
   {% if site.author.avatar %}
     {% assign avatar_path = site.author.avatar | prepend: "/" | relative_url %}
-    <img src="{{ avatar_path }}" alt="{{ site.author.name }}" style="border-radius: 50%; width: 150px; margin-bottom: 1rem;">
+    <img src="{{ avatar_path }}" alt="{{ site.author.name }}" class="author-avatar">
   {% endif %}
-  <h1>{{ site.author.name }}</h1>
-  <p>{{ site.author.bio }}</p>
-  <p>{{ site.author.location }}</p>
-  <p>
+  
+  <h1 class="author-name">{{ site.author.name }}</h1>
+  
+  <!-- 优先使用自定义的 position 和 institution，否则降级使用 bio / location -->
+  {% if site.author.position %}
+    <p class="author-position">{{ site.author.position }}</p>
+  {% endif %}
+  
+  {% if site.author.institution %}
+    <p class="author-institution">{{ site.author.institution }}</p>
+  {% elsif site.author.bio %}
+    <p class="author-institution">{{ site.author.bio }}</p>
+  {% endif %}
+  
+  <!-- 水平链接列表 -->
+  <div class="author-links">
     {% if site.author.email %}
       <a href="mailto:{{ site.author.email }}">Email</a>
     {% endif %}
     {% if site.author.googlescholar %}
-      {% if site.author.email %} | {% endif %}
+      <span class="sep">|</span>
       <a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a>
     {% endif %}
+    {% if site.author.twitter %}
+      <span class="sep">|</span>
+      <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank">Twitter</a>
+    {% endif %}
+    {% if site.author.github %}
+      <span class="sep">|</span>
+      <a href="https://github.com/{{ site.author.github }}" target="_blank">GitHub</a>
+    {% endif %}
     {% if site.author.linkedin %}
-      {% if site.author.email or site.author.googlescholar %} | {% endif %}
+      <span class="sep">|</span>
       <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank">LinkedIn</a>
     {% endif %}
-  </p>
+    <!-- 如果需要 CV 或 Research statement，可以单独添加，也可以作为自定义链接，例如： -->
+    {% if site.author.cv %}
+      <span class="sep">|</span>
+      <a href="{{ site.author.cv }}">CV</a>
+    {% endif %}
+    {% if site.author.research_statement %}
+      <span class="sep">|</span>
+      <a href="{{ site.author.research_statement }}">Research statement</a>
+    {% endif %}
+  </div>
 </div>
 {% endif %}
 
