@@ -2,21 +2,43 @@
 permalink: /
 title: "Kaizheng WANG"
 excerpt: ""
-author_profile: false
+author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-<!-- {% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %} -->
+<style>
+.custom-page {
+  max-width: 80%;
+  margin: 0 auto;
+  width: 100%;
+}
 
-<!-- <span class='anchor' id='about-me'></span>-->
+.author-avatar {
+  width: 100px !important;  /* 调整头像大小，可根据需要改为 80px 或 120px */
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
 
+/* 可选：在大屏幕上限制最大宽度，避免过宽 */
+@media (min-width: 1600px) {
+  .custom-page {
+    max-width: 1200px;
+  }
+}
+
+/* 确保其他样式不受影响（可选） */
+.author-links a {
+  text-decoration: none;
+  color: #0366d6;
+}
+</style>
+
+<div class="custom-page">
+
+<!-- 这里是你之前嵌入的作者信息块（从 config 中读取） -->
 {% if site.author %}
 <div class="author-profile" style="text-align: center; margin-bottom: 2rem;">
   {% if site.author.avatar %}
@@ -58,7 +80,7 @@ redirect_from:
       <span class="sep">|</span>
       <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank">LinkedIn</a>
     {% endif %}
-    <!-- 如果需要 CV 或 Research statement，可以单独添加，也可以作为自定义链接，例如： -->
+    <!-- 如果有 CV 或 Research statement 链接，继续添加 -->
     {% if site.author.cv %}
       <span class="sep">|</span>
       <a href="{{ site.author.cv }}">CV</a>
@@ -250,3 +272,4 @@ My current research centers on uncertainty representation and quantification in 
   <li><strong>{{ service.type }}:</strong> {{ service.description | markdownify | remove: '<p>' | remove: '</p>' }}</li>
 {% endfor %}
 </ul>
+</div> <!-- 结束 .custom-page -->
