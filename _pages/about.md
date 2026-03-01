@@ -18,9 +18,11 @@ redirect_from:
 <!-- <span class='anchor' id='about-me'></span>-->
 
 # About Me
+<p style="text-align: justify;">
 I am Kaizheng Wang (王凯征), a postdoctoral research fellow at the College of Computing and Data Science, Nanyang Technological University, Singapore, working under the supervision of [Prof. Siu Lun Chau](https://chau999.github.io/). I obtained my PhD from the Department of Computer Science at KU Leuven, Belgium, where I was advised by [Prof. Hans Hallez](https://www.kuleuven.be/wieiswie/en/person/00080562) and [Prof. David Moens](https://www.kuleuven.be/wieiswie/en/person/00012025). I have also had the privilege of working closely with [Prof. Fabio Cuzzolin](https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin), from whom I have also received invaluable guidance.
 
-My current research centers on uncertainty representation and quantification in deep learning, aiming to enhance the robustness, reliability, and trustworthiness of machine learning models. If you have any questions about my research or would like to collaborate with me, please feel free to reach me.
+My current research centers on uncertainty representation and quantification in deep learning, aiming to enhance the robustness, reliability, and trustworthiness of machine learning models. If you have any questions about my research or would like to collaborate with me, please feel free to reach out to me.
+</p>
 
 # News
 <ul>
@@ -97,17 +99,14 @@ My current research centers on uncertainty representation and quantification in 
 
 # Educations
 <style>
-/* 容器：占满可用宽度，但不把内容居中 */
 .edu-card-container {
   display: flex;
   flex-direction: column;
   gap: 15px;
   width: 100%;
-  /* 不设置 margin:0 auto; 以保证左对齐 */
-  padding-left: 0; /* 如果你的页面主体有内边距，可按需调整 */
+  padding-left: 0; 
 }
 
-/* 单个卡片：限定最大宽度，保证不太长，并且左对齐 */
 .edu-card {
   display: flex;
   align-items: center;
@@ -117,19 +116,18 @@ My current research centers on uncertainty representation and quantification in 
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 
-  /* 关键：设置固定的 max-width，让卡片看起来不太长 */
   width: 100%;
-  max-width: 760px;   /* ← 改这个值可以控制卡片“长度” */
-  margin-left: 0;     /* 左对齐（重要） */
+  max-width: 760px;   
+  margin-left: 0;    
 }
 
-/* 鼠标悬停微动画 */
+
 .edu-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.12);
 }
 
-/* logo 以高度为基准，保持比例 */
+
 .edu-card img {
   height: auto;
   width: 140.0px;
@@ -141,13 +139,11 @@ My current research centers on uncertainty representation and quantification in 
   padding: 2px;
 }
 
-/* 文字左对齐（在卡片内） */
 .edu-card .edu-body {
   text-align: left;
   line-height: 1.45;
 }
 
-/* 文字样式 */
 .edu-card b {
   font-size: 1rem;
   color: #222;
@@ -161,12 +157,11 @@ My current research centers on uncertainty representation and quantification in 
   font-size: 0.85rem;
 }
 
-/* 📱 手机端：卡片变竖排，宽度为100%（占满容器） */
 @media (max-width: 600px) {
   .edu-card {
     flex-direction: column;
     align-items: flex-start;
-    max-width: 100%;   /* 手机上占满 */
+    max-width: 100%;   
     padding: 12px;
   }
   .edu-card img {
