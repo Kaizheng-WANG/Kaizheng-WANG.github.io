@@ -20,7 +20,9 @@ redirect_from:
 # About Me
 <p style="text-align: justify;">
 I am Kaizheng Wang (王凯征), a postdoctoral research fellow at the College of Computing and Data Science, Nanyang Technological University, Singapore, working under the supervision of <a href="https://chau999.github.io/">Prof. Siu Lun Chau</a>. I obtained my PhD from the Department of Computer Science at KU Leuven, Belgium, where I was advised by <a href="https://www.kuleuven.be/wieiswie/en/person/00080562">Prof. Hans Hallez</a> and <a href="https://www.kuleuven.be/wieiswie/en/person/00012025">Prof. David Moens</a>. I have also had the privilege of working closely with <a href="https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin">Prof. Fabio Cuzzolin</a>, from whom I have also received invaluable guidance.
+</p>
 
+<p style="text-align: justify;">
 My current research centers on uncertainty representation and quantification in deep learning, aiming to enhance the robustness, reliability, and trustworthiness of machine learning models. If you have any questions about my research or would like to collaborate with me, please feel free to reach me.
 </p>
 
