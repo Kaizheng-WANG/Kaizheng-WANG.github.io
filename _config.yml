@@ -7,14 +7,14 @@
 
 # Site Settings
 title                    : "Kaizheng Wang"
-description              : "Postdoctoral Research Fellow @ Nanyang Technological University, Singapore"
+description              : "Postdoctoral Fellow"
 
 # Site Author
 author:
   name             : "Kaizheng Wang"
   avatar           : "images/kaizheng.png"
   # bio              : "Postdoc @ NTU"
-  # location         : "Singapore"
+  location         : "Nanyang Technological University, Singapore"
   # position         : "Postdoctoral Research Fellow"
   # institution      : "Nanyang Technological University, Singapore"
   employer         :
