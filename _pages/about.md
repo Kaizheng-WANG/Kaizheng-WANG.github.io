@@ -66,7 +66,7 @@ redirect_from:
 }
 </style>
 
-<div class="custom-page"，markdown="1">
+<div class="custom-page">
 
 <!-- 作者信息块（从 _config.yml 读取，已改为图标） -->
 {% if site.author %}
