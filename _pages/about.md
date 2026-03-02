@@ -9,30 +9,48 @@ redirect_from:
 ---
 
 <style>
+/* ===== 覆盖主题的页面容器，移除侧边栏占位 ===== */
+.page {
+  width: 100% !important;
+  max-width: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  float: none !important;
+  margin: 0 auto !important;
+}
+
+/* 隐藏任何侧边栏元素 */
+.page__sidebar,
+.sidebar {
+  display: none !important;
+}
+
+/* 主要内容区域占满宽度 */
+.page__content {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* ===== 自定义内容容器：宽度80%且居中 ===== */
 .custom-page {
   max-width: 80%;
   margin: 0 auto;
   width: 100%;
 }
 
+/* ===== 调整头像大小（覆盖 main.scss 中的 150px）===== */
 .author-avatar {
-  width: 100px !important;  /* 调整头像大小，可根据需要改为 80px 或 120px */
+  width: 100px !important;   /* 可根据需要改为 80px 或 120px */
   height: auto;
   border-radius: 50%;
-  margin-bottom: 1rem;
 }
 
-/* 可选：在大屏幕上限制最大宽度，避免过宽 */
-@media (min-width: 1600px) {
-  .custom-page {
-    max-width: 1200px;
-  }
-}
-
-/* 确保其他样式不受影响（可选） */
-.author-links a {
-  text-decoration: none;
-  color: #0366d6;
+/* 确保链接分隔符样式 */
+.sep {
+  color: #aaa;
+  margin: 0 0.3rem;
 }
 </style>
 
