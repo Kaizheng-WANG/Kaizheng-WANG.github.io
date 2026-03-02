@@ -13,10 +13,10 @@ description              : "Postdoctoral Research Fellow"
 author:
   name             : "Kaizheng Wang"
   avatar           : "images/kaizheng.png"
-  # bio              : "Nanyang Technological University"
+  bio              : "Postdoctoral Research Fellow"
   location         : "Singapore"
-  position         : "Postdoctoral Research Fellow"
-  institution      : "Nanyang Technological University, Singapore"
+  # position         : "Postdoctoral Research Fellow"
+  # institution      : "Nanyang Technological University, Singapore"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=FbWkCh0AAAAJ"

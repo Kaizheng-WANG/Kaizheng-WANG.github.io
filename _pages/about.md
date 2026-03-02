@@ -2,15 +2,22 @@
 permalink: /
 title: "Kaizheng WANG"
 excerpt: ""
-author_profile: True
+author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+<!-- {% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% else %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %} -->
+
+<!-- <span class='anchor' id='about-me'></span>-->
 
 # About Me
-
 <p style="text-align: justify;">
 I am Kaizheng Wang (王凯征), a postdoctoral research fellow at the College of Computing and Data Science, Nanyang Technological University, Singapore, working under the supervision of <a href="https://chau999.github.io/">Prof. Siu Lun Chau</a>. I obtained my PhD from the Department of Computer Science at KU Leuven, Belgium, where I was advised by <a href="https://www.kuleuven.be/wieiswie/en/person/00080562">Prof. Hans Hallez</a> and <a href="https://www.kuleuven.be/wieiswie/en/person/00012025">Prof. David Moens</a>. I have also had the privilege of working closely with <a href="https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin">Prof. Fabio Cuzzolin</a>, from whom I have also received invaluable guidance.
 </p>
@@ -20,7 +27,6 @@ My current research centers on uncertainty representation and quantification in 
 </p>
 
 # News
-
 <ul>
 {% for item in site.data.news %}
   <li><strong>{{ item.date }}:</strong> {{ item.content | markdownify | remove: '<p>' | remove: '</p>' }}</li>
@@ -28,7 +34,6 @@ My current research centers on uncertainty representation and quantification in 
 </ul>
 
 # Publications
-
 {% assign first_author_pubs = site.publications 
     | where: "first_author", true 
     | sort: "date" 
@@ -95,7 +100,6 @@ My current research centers on uncertainty representation and quantification in 
 </ul>
 
 # Educations
-
 <style>
 .edu-card-container {
   display: flex;
@@ -187,7 +191,6 @@ My current research centers on uncertainty representation and quantification in 
 </div>
 
 # Academic and Educational Services
-
 <ul>
 {% for service in site.data.services %}
   <li><strong>{{ service.type }}:</strong> {{ service.description | markdownify | remove: '<p>' | remove: '</p>' }}</li>
