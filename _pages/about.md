@@ -62,7 +62,7 @@ My current research centers on uncertainty representation and quantification in 
         {% assign highlight_flag = true %}
       {% endif %}
       {% if highlight_flag %}
-        <span style="color: red; font-weight: bold;">{{ pub.note }}.</span>
+        <span style="color: blue; font-weight: bold;">{{ pub.note }}.</span>
       {% else %}
         {{ pub.note }}.
       {% endif %}
