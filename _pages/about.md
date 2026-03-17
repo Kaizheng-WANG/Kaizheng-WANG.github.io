@@ -23,7 +23,7 @@ I am Kaizheng Wang (王凯征), a research fellow at the College of Computing an
 </p>
 
 <p style="text-align: justify;">
-My current research centers on uncertainty representation and quantification in deep learning, aiming to enhance the robustness, reliability, and trustworthiness of machine learning models. If you have any questions about my research or would like to collaborate with me, please feel free to reach me.
+My current research centers on uncertainty representation and quantification in deep learning, aiming to enhance the robustness, reliability, and trustworthiness of machine learning models. If you have any questions about my research or would like to collaborate with me, please feel free to reach out to me.
 </p>
 
 # News
