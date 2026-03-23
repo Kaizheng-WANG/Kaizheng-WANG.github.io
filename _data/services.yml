@@ -5,10 +5,10 @@
   description: NeurIPS; ICLR; ICML; AAAI; IJCAI; AISTATS
 
 - type: Journal Reviewer
-  description: TMLR; IEEE SPL; IEEE OJCS
+  description: IEEE TNNLS; TMLR; IEEE SPL; IEEE OJCS
 
-- type: Teaching
-  description: Lab session of *AI in Embedded Systems* [B-KUL-B3076T]
+- type: Teaching Assistant
+  description: AI in Embedded Systems [B-KUL-B3076T], KU Leuven, Spring 2023-2025
 
 - type: Master Thesis Supervision
   description: T. Demeulenaere and S. Francq (2022-2023); L. De Jonckheere (2022-2023); A. Beigrezaei (2023-2024)

@@ -190,7 +190,7 @@ My current research centers on uncertainty representation and quantification in 
   {% endfor %}
 </div>
 
-# Academic and Educational Services
+# Services
 <ul>
 {% for service in site.data.services %}
   <li><strong>{{ service.type }}:</strong> {{ service.description | markdownify | remove: '<p>' | remove: '</p>' }}</li>
