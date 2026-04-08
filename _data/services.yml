@@ -5,7 +5,8 @@
   description: NeurIPS; ICLR; ICML; AAAI; IJCAI; AISTATS
 
 - type: Journal Reviewer
-  description: IEEE TNNLS; TMLR; IEEE SPL; IEEE OJCS
+  # description: IEEE TNNLS; TMLR; IEEE SPL; IEEE OJCS
+  description: IEEE TNNLS; TMLR; IEEE OJCS
 
 - type: Teaching Assistant
   description: AI in Embedded Systems [B-KUL-B3076T], KU Leuven, Spring 2023-2025
