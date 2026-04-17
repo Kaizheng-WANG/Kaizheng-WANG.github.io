@@ -30,7 +30,7 @@ I am Kaizheng Wang (王凯征), a Research Fellow at the College of Computing an
 </p>
 
 <p style="text-align: justify;">
-I obtained my PhD from the Department of Computer Science at KU Leuven, Belgium, supervised by <a href="https://www.kuleuven.be/wieiswie/en/person/00080562">Prof. Hans Hallez</a> and <a href="https://www.kuleuven.be/wieiswie/en/person/00012025">Prof. David Moens</a>, and had the privilege of being closely advised by <a href="https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin">Prof. Fabio Cuzzolin</a>. Prior to my PhD, I received a Bachelor's degree in Mechatronics Engineering from Zhejiang University, China (2017), and a Master's degree in Automation Engineering from RWTH Aachen University, Germany (2020).
+I obtained my PhD from the Department of Computer Science at KU Leuven, Belgium, supervised by <a href="https://www.kuleuven.be/wieiswie/en/person/00080562">Prof. Hans Hallez</a> and <a href="https://www.kuleuven.be/wieiswie/en/person/00012025">Prof. David Moens</a>, and had the privilege of being closely advised by <a href="https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin">Prof. Fabio Cuzzolin</a>. Prior to my PhD, I received a Bachelor's degree in Mechatronics Engineering from Zhejiang University, China, and a Master's degree in Automation Engineering from RWTH Aachen University, Germany.
 </p>
 
 <p style="text-align: justify;">

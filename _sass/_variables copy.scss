@@ -15,7 +15,9 @@ $indent-var                 : 0.5em;
 /* system typefaces */
 $serif                      : Georgia, Times, serif;
 $sans-serif                 : "Trebuchet MS", Helvetica, sans-serif;
+// $sans-serif                 : Georgia, serif, sans-serif;
 
+// $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
@@ -36,37 +38,37 @@ $caption-font-family        : $serif;
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
 $type-size-2                : 1.953em;  // ~31.248px
-$type-size-3                : 1.4em;    // ~25.008px
-$type-size-4                : 1.2em;    // ~20px
+$type-size-3                : 1.4em;  // ~25.008px
+$type-size-4                : 1.2em;   // ~20px
 $type-size-5                : 1em;      // ~16px
-$type-size-6                : 1em;      // ~12px
+$type-size-6                : 1em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
 
 /*
-   Colors — Claude Daytime Mode
+   Colors
    ========================================================================== */
 
-$gray                       : #9A8F85;
+$gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-/* Claude daytime palette */
-$body-color                 : #F5F0E8;   // 温暖米白背景
-$background-color           : #F5F0E8;
-$code-background-color      : #EDE8DF;
+$body-color                 : #fff;
+$background-color           : #fff;
+$code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
-$text-color                 : #2D2020;   // 深暖棕文字
-$border-color               : #E0D8CC;   // 温暖边框
+$text-color                 : $dark-gray;
+$border-color               : $lighter-gray;
 
-$primary-color              : #D97757;   // Claude 橙棕主色
+$primary-color              : #7a8288;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
-$info-color                 : #C96442;   // 深橙强调色
+$info-color                 : #224b8d;
+// $info-color                 : #52adc8;
 
 /* brands */
 $behance-color              : #1769FF;
@@ -92,11 +94,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : #C96442;           // 深橙链接
-$link-color-hover           : #A0522D;           // hover 更深
-$link-color-visited         : #D2956F;           // 访问过略浅
-$masthead-link-color        : #5C4033;           // 导航栏链接深棕
-$masthead-link-color-hover  : #D97757;           // hover 橙棕
+$link-color                 : $info-color;
+$link-color-hover           : mix(#000, $link-color, 25%);
+$link-color-visited         : mix(#fff, $link-color, 25%);
+$masthead-link-color        : $primary-color;
+$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 
 
 /*
@@ -104,12 +106,19 @@ $masthead-link-color-hover  : #D97757;           // hover 橙棕
    ========================================================================== */
 
 @include breakpoint-set("to ems", true);
+/*
+$small                      : 400px;
+$medium                     : 500px;
+$medium-wide                : 550px;
+$large                      : 1200px;
+$x-large                    : 1800px;
+*/
 
 $small                      : 600px !default;
 $medium                     : 768px !default;
 $medium-wide                : 900px !default;
-$large                      : 800px !default;   // 原 925px，缩小页面宽度
-$x-large                    : 1000px !default;  // 原 1280px
+$large                      : 925px !default;
+$x-large                    : 1280px !default;
 
 /*
    Grid
@@ -128,6 +137,12 @@ $susy: (
   gutter-position: after,
   container: $large,
   global-box-sizing: border-box,
+  // debug: (
+  //   image: show,
+  //   color: blue,
+  //   output: overlay,
+  //   toggle: top right,
+  // ),
 );
 
 
