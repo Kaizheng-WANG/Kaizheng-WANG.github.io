@@ -35,9 +35,11 @@ I obtained my PhD from the Department of Computer Science at KU Leuven, Belgium,
 
 <p style="text-align: justify;">
 My research centers on uncertainty representation and quantification in deep learning, with the overarching goal of building machine learning models that are robust, reliable, and trustworthy. Specifically, I focus on designing epistemic uncertainty-aware learning algorithms and embedding this uncertainty-aware intelligence into AI systems, frameworks, and real-world applications.
-I am always happy to discuss research ideas or explore potential collaborations — feel free to reach out!
 </p>
 
+<p style="text-align: justify;">
+I am always happy to discuss research ideas or explore potential collaborations — please feel free to reach out!
+</p>
 # News
 <ul>
 {% for item in site.data.news %}
