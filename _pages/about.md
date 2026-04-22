@@ -47,7 +47,7 @@ I am always happy to discuss research ideas or explore potential collaborations 
 {% endfor %}
 </ul>
 
-# Publications
+# Selected Publications
 {% assign first_author_pubs = site.publications 
     | where: "first_author", true 
     | sort: "date" 
@@ -87,7 +87,7 @@ I am always happy to discuss research ideas or explore potential collaborations 
 
 <!-- <h2>Co-Author Papers</h2> -->
 
-<ul>
+<!-- <ul>
 {% for pub in coauthor_pubs %}
   {% assign authors_clean = pub.authors | strip %}
   {% assign authors_bold = authors_clean | replace: "Kaizheng Wang,", "<strong>Kaizheng Wang</strong>," %}
@@ -111,7 +111,7 @@ I am always happy to discuss research ideas or explore potential collaborations 
     {% endif %}</small>
   </li>
 {% endfor %}
-</ul>
+</ul> -->
 
 # Educations
 <style>
