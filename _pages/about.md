@@ -47,6 +47,8 @@ I am always happy to discuss research ideas or explore potential collaborations 
 {% endfor %}
 </ul>
 
+<span id="publications"></span>
+
 # Selected Publications
 {% assign first_author_pubs = site.publications 
     | where: "first_author", true 
@@ -112,6 +114,9 @@ I am always happy to discuss research ideas or explore potential collaborations 
   </li>
 {% endfor %}
 </ul> -->
+
+
+<span id="educations"></span>
 
 # Educations
 <style>
@@ -203,6 +208,7 @@ I am always happy to discuss research ideas or explore potential collaborations 
   </div>
   {% endfor %}
 </div>
+<span id="awards"></span>
 
 # Awards
 <ul>
@@ -210,6 +216,8 @@ I am always happy to discuss research ideas or explore potential collaborations 
   <li><strong>{{ award.type }}</strong> {{ award.description | markdownify | remove: '<p>' | remove: '</p>' }}</li>
 {% endfor %}
 </ul>
+
+<span id="services"></span>
 
 # Services
 <ul>
