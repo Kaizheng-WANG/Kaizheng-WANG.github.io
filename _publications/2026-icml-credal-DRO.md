@@ -5,7 +5,7 @@ permalink: /publication/credal-DRO
 date: 2026-05-01
 venue: "ICML"
 venue_full: "The 43rd International Conference on Machine Learning"
-paperurl: "https://arxiv.org/abs/2602.08470"
+paperurl: "https://openreview.net/forum?id=cRTbp2pv7X"
 authors: "Kaizheng Wang, Ghifari Adam Faza, Fabio Cuzzolin, Siu Lun Chau, David Moens, Hans Hallez"
 type: "conference"
 selected: true
