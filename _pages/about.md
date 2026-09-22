@@ -26,7 +26,17 @@ I am Kaizheng Wang (王凯征), a research fellow at the College of Computing an
 My current research centers on uncertainty representation and quantification in deep learning, aiming to enhance the robustness, reliability, and trustworthiness of machine learning models. If you have any questions about my research or would like to collaborate with me, please feel free to reach out to me.
 </p> -->
 <p style="text-align: justify;">
-I am Kaizheng Wang (王凯征), a Research Fellow at the College of Computing and Data Science, Nanyang Technological University, Singapore, working with <a href="https://chau999.github.io/">Prof. Siu Lun Chau</a>. I obtained my PhD from the Department of Computer Science at KU Leuven, Belgium, supervised by <a href="https://www.kuleuven.be/wieiswie/en/person/00080562">Prof. Hans Hallez</a> and <a href="https://www.kuleuven.be/wieiswie/en/person/00012025">Prof. David Moens</a>, and had the privilege of being closely advised by <a href="https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin">Prof. Fabio Cuzzolin</a>. Prior to my PhD, I received a Bachelor's degree in Mechatronics Engineering from Zhejiang University, China, and a Master's degree in Automation Engineering from RWTH Aachen University, Germany.
+<!-- I am Kaizheng Wang (王凯征), a Research Fellow at the College of Computing and Data Science, Nanyang Technological University, Singapore, working with <a href="https://chau999.github.io/">Prof. Siu Lun Chau</a>. I obtained my PhD from the Department of Computer Science at KU Leuven, Belgium, supervised by <a href="https://www.kuleuven.be/wieiswie/en/person/00080562">Prof. Hans Hallez</a> and <a href="https://www.kuleuven.be/wieiswie/en/person/00012025">Prof. David Moens</a>, and had the privilege of being closely advised by <a href="https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin">Prof. Fabio Cuzzolin</a>. Prior to my PhD, I received a Bachelor's degree in Mechatronics Engineering from Zhejiang University, China, and a Master's degree in Automation Engineering from RWTH Aachen University, Germany. -->
+I am Kaizheng Wang (王凯征), a Research Fellow at Nanyang Technological University, 
+Singapore, working with <a href="https://chau999.github.io/">Prof. Siu Lun Chau</a>. 
+I received my PhD from KU Leuven, Belgium, under the supervision of 
+<a href="https://www.kuleuven.be/wieiswie/en/person/00080562">Prof. Hans Hallez</a> and 
+<a href="https://www.kuleuven.be/wieiswie/en/person/00012025">Prof. David Moens</a>, 
+with close mentorship from 
+<a href="https://www.brookes.ac.uk/profiles/staff/fabio-cuzzolin">Prof. Fabio Cuzzolin</a>. 
+Prior to my PhD, I received a Bachelor's degree in Mechatronics Engineering from 
+Zhejiang University, China, and a Master's degree in Automation Engineering from 
+RWTH Aachen University, Germany.
 </p>
 
 <!-- <p style="text-align: justify;">
