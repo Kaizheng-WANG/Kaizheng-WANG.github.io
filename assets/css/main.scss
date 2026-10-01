@@ -1,0 +1,67 @@
+---
+---
+
+/* Based on the Minimal Mistakes Jekyll theme (Michael Rose) via AcadHomepage */
+
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
+
+@import "reset";
+@import "base";
+
+@import "utilities";
+@import "animations";
+@import "masthead";
+@import "navigation";
+
+@import "page";
+@import "print";
+
+/* offset in-page anchors so headings are not hidden under the top bar */
+$scroll_offset : 2em;
+h1:before, .anchor:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: $scroll_offset;
+    margin-top: -$scroll_offset;
+}
+
+/* Profile header: photo, position, affiliation, links */
+.profile-header {
+    margin: 1.2em 0 0.2em;
+    text-align: center;
+
+    &__avatar {
+        display: block;
+        width: 110px;
+        height: 110px;
+        margin: 0 auto 0.7em;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    &__title {
+        margin: 0;
+        font-size: 1.05em;
+        line-height: 1.45;
+        color: $link-color;
+    }
+
+    &__links {
+        margin: 0.5em 0 0;
+        font-size: 0.85em;
+
+        a {
+            color: $link-color;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

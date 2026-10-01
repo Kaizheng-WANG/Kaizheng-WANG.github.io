@@ -1,0 +1,17 @@
+{%- assign a = site.author -%}
+{%- capture links -%}
+  {%- if a.email -%}<a href="mailto:{{ a.email }}">Email</a>;;{%- endif -%}
+  {%- if a.googlescholar -%}<a href="{{ a.googlescholar }}">Google Scholar</a>;;{%- endif -%}
+  {%- if a.orcid -%}<a href="{{ a.orcid }}">ORCID</a>;;{%- endif -%}
+  {%- if a.dblp -%}<a href="{{ a.dblp }}">DBLP</a>;;{%- endif -%}
+  {%- if a.github -%}<a href="https://github.com/{{ a.github }}">GitHub</a>;;{%- endif -%}
+  {%- if a.twitter -%}<a href="https://twitter.com/{{ a.twitter }}">Twitter</a>;;{%- endif -%}
+  {%- if a.linkedin -%}<a href="https://www.linkedin.com/in/{{ a.linkedin }}">LinkedIn</a>;;{%- endif -%}
+  {%- if a.cv -%}<a href="{{ a.cv }}">CV</a>;;{%- endif -%}
+{%- endcapture -%}
+<header class="profile-header">
+  <img class="profile-header__avatar" src="{{ a.avatar }}" alt="{{ a.name }}">
+  {% if a.position %}<p class="profile-header__title">{{ a.position }}</p>{% endif %}
+  {% if a.affiliation %}<p class="profile-header__title">{{ a.affiliation }}</p>{% endif %}
+  <p class="profile-header__links">{{ links | split: ";;" | join: " | " }}</p>
+</header>
