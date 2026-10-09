@@ -1,0 +1,6 @@
+_site/
+push.sh
+.DS_Store
+
+# preview images saved by the Claude app (not part of the site)
+Claude outputs/

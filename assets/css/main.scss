@@ -1,0 +1,32 @@
+---
+---
+
+/* Based on the Minimal Mistakes Jekyll theme (Michael Rose) via AcadHomepage */
+
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
+
+@import "reset";
+@import "base";
+
+@import "utilities";
+@import "animations";
+@import "masthead";
+@import "navigation";
+
+@import "page";
+@import "homepage";
+@import "print";
+
+/* offset in-page anchors so headings are not hidden under the top bar */
+$scroll_offset : 2em;
+h1:before, .anchor:before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 0;
+    height: $scroll_offset;
+    margin-top: -$scroll_offset;
+}

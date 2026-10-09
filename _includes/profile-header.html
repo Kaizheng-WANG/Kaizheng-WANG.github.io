@@ -1,0 +1,25 @@
+{%- comment -%}
+  Profile header: photo next to name / position / affiliation / links, centered as one group.
+  Everything is configured under `author:` in _config.yml; an empty field is simply not shown.
+{%- endcomment -%}
+{%- assign a = site.author -%}
+{%- capture links -%}
+  {%- if a.cv -%};;<a href="{{ a.cv }}">CV</a>{%- endif -%}
+  {%- if a.googlescholar -%};;<a href="{{ a.googlescholar }}">Google Scholar</a>{%- endif -%}
+  {%- if a.orcid -%};;<a href="{{ a.orcid }}">ORCID</a>{%- endif -%}
+  {%- if a.dblp -%};;<a href="{{ a.dblp }}">DBLP</a>{%- endif -%}
+  {%- if a.github -%};;<a href="https://github.com/{{ a.github }}">GitHub</a>{%- endif -%}
+  {%- if a.linkedin -%};;<a href="https://www.linkedin.com/in/{{ a.linkedin }}">LinkedIn</a>{%- endif -%}
+  {%- if a.twitter -%};;<a href="https://x.com/{{ a.twitter }}">X (Twitter)</a>{%- endif -%}
+  {%- if a.email -%};;<a href="mailto:{{ a.email }}">Email</a>{%- endif -%}
+{%- endcapture -%}
+{%- capture sep -%}<span class="profile-header__sep">|</span>{%- endcapture -%}
+<header class="profile-header">
+  {% if a.avatar %}<img class="profile-header__avatar" src="{{ a.avatar }}" alt="{{ a.name }}">{% endif %}
+  <div class="profile-header__info">
+    <h1 class="profile-header__name">{{ a.name }}{% if a.name_native %} <span class="profile-header__native">{{ a.name_native }}</span>{% endif %}</h1>
+    {% if a.position %}<p class="profile-header__title">{{ a.position }}</p>{% endif %}
+    {% if a.affiliation %}<p class="profile-header__title">{{ a.affiliation }}</p>{% endif %}
+    <p class="profile-header__links">{{ links | remove_first: ";;" | replace: ";;", sep }}</p>
+  </div>
+</header>
