@@ -1,0 +1,21 @@
+# Services. Add `fold: true` to an item to keep it behind the "Show more" button.
+
+- type: Conference Area Chair
+  description: ICLR
+
+- type: Conference Reviewer
+  description: NeurIPS; ICLR; ICML; AAAI; IJCAI; UAI; AISTATS
+
+- type: Journal Reviewer
+  description: IEEE TNNLS; TMLR; IEEE OJCS
+
+- type: Workshop Organization
+  description: "[E-pi UAI 2023](https://sites.google.com/view/epi-workshop-uai-2023/home?authuser=0)"
+
+- type: Teaching
+  fold: true
+  description: AI in Embedded Systems [B-KUL-B3076T], KU Leuven, Spring 2023-2025
+
+- type: Student Supervision
+  fold: true
+  description: T. Demeulenaere and S. Francq (2022-2023 @ KU Leuven); L. De Jonckheere (2022-2023 @ KU Leuven); A. Beigrezaei (2023-2024 @ KU Leuven)

@@ -1,0 +1,20 @@
+# Top navigation bar. Each url must match a section id on the page:
+# "# About" in _pages/about.md becomes #about, "# News" becomes #news, and so on.
+main:
+  - title: "About"
+    url: "/#about"
+
+  - title: "News"
+    url: "/#news"
+
+  - title: "Publications"
+    url: "/#publications"
+
+  - title: "Education"
+    url: "/#education"
+
+  - title: "Awards"
+    url: "/#awards"
+
+  - title: "Services"
+    url: "/#services"
