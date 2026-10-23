@@ -1,0 +1,57 @@
+# Site settings
+title       : "Kaizheng Wang"
+description : "Research Fellow"
+url         : "https://kaizheng-wang.github.io"
+timezone    : Asia/Singapore
+
+# Profile header at the top of the page (leave a field empty to hide it)
+author:
+  name          : "Kaizheng Wang"
+  name_native   : "王凯征"  # shown after the English name in Microsoft YaHei (empty = hidden)
+  avatar        : "images/kaizheng.jpg"
+  position      : "Research Fellow"
+  affiliation   : "Nanyang Technological University, Singapore"
+  email         : "kaizheng.wang@ntu.edu.sg"
+  googlescholar : "https://scholar.google.com/citations?user=FbWkCh0AAAAJ"
+  linkedin      : "kaizheng-wang-a538661a9"
+  orcid         : # e.g. "https://orcid.org/xxxx-xxxx-xxxx-xxxx"
+  dblp          : # e.g. "https://dblp.org/pid/xx/xxxx.html"
+  github        : # GitHub username
+  twitter       : # Twitter/X username
+  cv            : # link or file path, e.g. "files/CV.pdf"
+
+# Build
+include:
+  - _pages          # the homepage lives in _pages/about.md
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - run_server.sh
+  - vendor
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+
+# Publications are data only (listed on the homepage), no separate pages
+collections:
+  publications:
+    output: false
+
+plugins:
+  - jekyll-sitemap
