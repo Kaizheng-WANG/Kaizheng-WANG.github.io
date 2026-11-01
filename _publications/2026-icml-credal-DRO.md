@@ -1,0 +1,14 @@
+---
+title: "Learning Credal Ensembles via Distributionally Robust Optimization"
+date: 2026-05-01
+venue: "ICML"
+venue_full: "The 43rd International Conference on Machine Learning"
+paperurl: "https://openreview.net/forum?id=cRTbp2pv7X"
+authors: "Kaizheng Wang, Ghifari Adam Faza, Fabio Cuzzolin, Siu Lun Chau, David Moens, Hans Hallez"
+type: "conference"
+selected: true
+first_author: true
+corresponding_author: false
+highlight: True
+note: "Spotlight"
+---

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body id="top">
+    {% include masthead.html %}
+
+    <div id="main" role="main">
+      {% include profile-header.html %}
+
+      <article class="page">
+        <div class="page__inner-wrap">
+          <section class="page__content">
+            {{ content }}
+          </section>
+        </div>
+      </article>
+    </div>
+
+    <script src="assets/js/main.min.js"></script>
+    <script src="assets/js/homepage.js?v={{ site.time | date: '%s' }}"></script>
+  </body>
+</html>

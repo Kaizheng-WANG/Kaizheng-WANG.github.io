@@ -1,0 +1,13 @@
+---
+title: "Enhancing the Dependability of Autonomous Surface Vehicles through Robustness Benchmarking of Real-time Object Detection Models"
+date: 2026-01-16
+venue: "ESWA"
+venue_full: "Expert Systems with Applications"
+paperurl: "https://doi.org/10.1016/j.eswa.2025.129151"
+authors: "Yunjia Wang, Zihao Zhang, Kaizheng Wang, Holger Caesar, Jeroen Boydens, Davy Pissoort, Mathias Verbeke"
+type: "journal"
+selected: false
+first_author: false
+corresponding_author: false
+highlight: false
+---

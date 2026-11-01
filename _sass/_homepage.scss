@@ -1,0 +1,212 @@
+/* ==========================================================================
+   HOMEPAGE COMPONENTS
+   Profile header, "Show more" lists and the Featured / All publication filter
+   ========================================================================== */
+
+$button-color : $link-color;
+
+/*
+   Profile header: photo | name, position, links  (centered as one group)
+   ========================================================================== */
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  margin: 2em 0 0.5em;
+
+  &__avatar {
+    flex-shrink: 0;
+    width: 115px;          /* about the height of the text block next to it */
+    height: 115px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px $border-color, 0 2px 8px rgba(0, 0, 0, 0.12);
+    object-fit: cover;
+  }
+
+  &__info {
+    flex: 0 1 auto;
+    min-width: 0;
+    text-align: center;
+  }
+
+  &__name {
+    margin: 0 0 0.3em;
+    font-size: 1.8em;
+    font-weight: normal;
+    line-height: 1.2;
+    color: $darker-gray;
+
+    /* the name is not a scroll target, so skip the anchor-offset trick used by section headings */
+    &:before {
+      content: none;
+    }
+  }
+
+  /* Chinese name: Microsoft YaHei (Windows); devices without it use their own
+     Chinese sans font (PingFang on Mac/iPhone, Noto Sans CJK on Android/Linux) */
+  &__native {
+    margin-left: 0.1em;
+    font-family: "Microsoft YaHei", "微软雅黑", "PingFang SC", "Hiragino Sans GB",
+                 "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
+    white-space: nowrap;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 1.05em;
+    line-height: 1.5;
+    color: $text-color;
+  }
+
+  &__links {
+    margin: 0.25em 0 0;
+    font-size: 0.95em;
+    line-height: 1.5;
+
+    a {
+      color: $link-color;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__sep {
+    margin: 0 0.4em;
+    color: $light-gray;
+  }
+
+  /* phones: stack photo above the text */
+  @media (max-width: 600px) {
+    flex-direction: column;
+    gap: 0.8em;
+    margin-top: 1.2em;
+
+    &__avatar {
+      width: 100px;
+      height: 100px;
+    }
+
+    &__name {
+      font-size: 1.6em;
+    }
+
+    &__title {
+      font-size: 1em;
+    }
+
+    &__links {
+      font-size: 0.9em;
+    }
+  }
+}
+
+/*
+   Buttons shared by "Show more" and the publication filter
+   ========================================================================== */
+
+%homepage-button {
+  margin: 0;
+  padding: 0.3em 0.9em;
+  font: inherit;
+  line-height: 1.4;
+  color: $button-color;
+  background: #fff;
+  border: 1px solid $button-color;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba($button-color, 0.08);
+  }
+
+  &:focus-visible {
+    outline: 2px solid rgba($button-color, 0.4);
+    outline-offset: 2px;
+  }
+}
+
+/*
+   "Show more" lists (News, Awards)
+   List items with class "is-folded" stay hidden until the button is pressed.
+   Rules are scoped to .js so visitors without JavaScript still see everything.
+   ========================================================================== */
+
+.js .foldable:not(.is-expanded) > .is-folded {
+  display: none;
+}
+
+.show-more-row {
+  margin: 0.6em 0 0 2em;   /* line up with the text of the list above */
+}
+
+.show-more {
+  @extend %homepage-button;
+  border-radius: $border-radius;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+/*
+   Publications: heading with legend and Featured / All switch
+   ========================================================================== */
+
+.page__content h1.heading-with-toggle {
+  position: relative;
+  padding-right: 10rem;   /* keep the title clear of the switch */
+  /* the anchor-offset trick stretches every h1 box upwards over the content above it;
+     let clicks pass through so the News "Show more" button stays clickable */
+  pointer-events: none;
+}
+
+.pub-legend {
+  white-space: nowrap;   /* on phones, wrap the legend as a whole */
+  font-size: 0.72em;
+  font-weight: normal;
+  color: $text-color;
+}
+
+.pub-toggle {
+  position: absolute;
+  right: 0;
+  bottom: 0.55em;
+  display: inline-flex;
+  pointer-events: auto;
+  font-size: 1rem;
+  font-weight: normal;
+
+  button {
+    @extend %homepage-button;
+
+    &:first-child {
+      border-radius: $border-radius 0 0 $border-radius;
+    }
+
+    &:last-child {
+      margin-left: -1px;
+      border-radius: 0 $border-radius $border-radius 0;
+    }
+
+    &.is-active {
+      position: relative;   /* draw its border on top of the neighbour's */
+      color: #fff;
+      background: $button-color;
+      cursor: default;
+    }
+  }
+}
+
+.no-js .pub-toggle {
+  display: none;
+}
+
+/* "Featured" view (default): only papers marked is-featured */
+.js .pub-list:not(.show-all) > .pub-item:not(.is-featured) {
+  display: none;
+}
